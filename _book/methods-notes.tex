@@ -85,7 +85,7 @@ Science}
   \postauthor{\par}
   \predate{\centering\large\emph}
   \postdate{\par}
-  \date{2017-12-26}
+  \date{2017-12-27}
 
 \usepackage{booktabs}
 
@@ -719,6 +719,167 @@ Justice - does the model advance normative goals?
 \item
   What is a critical test and why is it important?
 \end{enumerate}
+
+\chapter{Fractions}\label{fractions}
+
+We can imagine lots of lists that are not numbers. This lists contain
+qualitative variables. We might have a lists that contains the class of
+each student in the class. Rather than contain numbers, this list
+contains values like ``Freshman,'' ``Sophomore,'' ``Junior,'' and
+``Senior.''
+
+Similarly, at the end of the semester, I have a list of grades. The most
+important list is Letter Grades which contains values like A, B, C, D,
+and F. We might have lists that contain partisanship, ideology, regime
+type, and so on.
+
+When we deal with lists that contain not-numbers, we cannot use the
+average because we cannot sum the not-numbers.
+
+Instead, we use fractions. We choose a particular category and compute
+the fraction of a list that fall into that category. Note that this
+``particular category''" might contain several values, such as freshman
+or sophomore (underclassmen) or A, B, or C (passing grades). For
+example, we say a certain fraction of the class are freshman. Or we say
+that a certain fraction of a class received an A, B, or C.
+
+\section{Calculating Fractions}\label{calculating-fractions}
+
+To compute a fraction, simply count the number of entries in the list
+that fall in the particular category and divide that by the total number
+of entries.
+
+\[\text{fraction in the category} = \dfrac{\text{number of entries that fall into the category}}{\text{total number of entries}}\]
+
+For example, take the
+
+\begin{table}
+
+\caption{\label{tab:unnamed-chunk-1}Class standing and letter grades of 15 hypothetical students.}
+\centering
+\begin{tabular}[t]{l|l|l|l|l|l|l|l|l|l|l}
+\hline
+Class & Junior & Senior & Senior & Senior & Sophomore & Freshman & Sophomore & Junior & Junior & Senior\\
+\hline
+Grade & C & C & D & C & B & B & B & B & C & A\\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Example}: Compute the percent of sophomores in the class.
+
+\begin{quote}
+First count the number of sophomores in the list. We have 2. Next, count
+the number of total students in the class. We have 10. Finally, divide
+the number of sophomores by total number of students. We have
+\(\frac{2}{10}\).
+\end{quote}
+
+\begin{quote}
+If we want, we can leave this fraction as is, reduce it to a simpler
+form, or convert it to a percent. It's usually easiest to convert the
+final fraction to a percent. in this cases, we have 20\%.
+\end{quote}
+
+\textbf{Exercises}:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Compute the percent of students in the class that are sophomores.
+  Compute the percent that are juniors or seniors.
+\item
+  Compute the percent of students that received an F. Compute the
+  percent that received an A or a B.
+\item
+  Compute the percent of seniors that received an A. Compute the percent
+  of freshmen that received an A.
+\end{enumerate}
+
+\section{The Mathematics of
+Fractions}\label{the-mathematics-of-fractions}
+
+The approach above to compute a fraction works perfectly. However, it
+does not clearly connect to the past or future discussion of averages.
+
+If we can connect fractions and averages, then we can apply the same
+theory to two concepts, cutting our theory and formulas by half.
+
+To connect fractions and averages, we simply convert the list of
+not-numbers into a list of numbers. To create the new list of numbers,
+simply assign the number 1 to the entries that fall into the particular
+category. Assign zero to the other entries. This creates a list of
+numbers that contains only 0s and 1s. I call this a 0-1 list. The
+fraction is simply the average of this 0-1 list.
+
+\textbf{Note: We can think of a fraction as an average of a 0-1 list.}
+
+Notice that a fraction is a special type of average: it is an average of
+a 0-1 list that you create by replacing the entries that fall into the
+categories of interest with 1s and replacing the other entries with
+zero.
+
+\textbf{Exercise}: Suppose I'm evaluating the admissions process so I
+put together a list containing the gender of the admitted graduate
+students. This list is M, M, F, F, M, M, M, M, F, M, and M.
+
+Try two ways to calculating the fraction of women admitted. 1. The
+inital way I described: count the number of women in the list and divide
+that by the total number of entries. 2. The more mathematical way I
+described: write down the implied 0-1 list (replace Woman with 1 and
+everything else with 0) and then average the list. Are these two
+approaches different or the same? Elaborate?
+
+If we understand fractions as a special type of average, then anything
+we say about averages applies to fractions too!
+
+\section{SD of a 0-1 List}\label{sd-of-a-0-1-list}
+
+If we convert a list of qualitative values into a 0-1 list, then we can
+compute the SD of the new list. Just like with other lists of numbers,
+the SD of a 0-1 list is the r.m.s. of the deviations from average. We
+can compute the SD the usual way. But the usual way takes time, and if
+we have a 0-1 list, we have a shortcut.
+
+\[\text{SD of a 0-1 list} = \sqrt{\text{ave. of list} \times (1 - \text{ave. of list})}\]
+
+Notice that the average of a 0-1 list determines the SD \emph{exactly}.
+If the average of a 0-1 list is 0.25, then the SD is exactly
+\(\sqrt{0.2 \times 0.8} = 0.4\). If the average of a 0-1 list is 0.5,
+then the SD is exactly \(\sqrt{0.5 \times 0.5} = 0.5\).
+
+Because of this, we do not often discuss the variation when working with
+lists of qualitative values--the fraction contains all the information
+we need.
+
+However, this shortcut will help us later.
+
+\section{Properties of Fractions}\label{properties-of-fractions}
+
+We can say three things about fractions:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  They are at least 0 and at most 1. If none of the entries fall into
+  the category, then the top (numerator) of the fraction equals 0, and
+  therefore the whole fraction equals 0. If all of the entries fall into
+  the category, then the top of the fraction (numerator) equals the
+  bottom of the fraction (denominator), and thefore the whole fraction
+  equals 1.
+\item
+  The fraction that do not fall into a category is 1 minus the fraction
+  that fall into a category.
+\item
+  It is easier to talk about percents. After we finish all our
+  calculations, we usually convert fractions to percents by multiplying
+  the fraction by 100\%. It usually round this percent to the nearest
+  whole percent.
+\end{enumerate}
+
+\section{Review Exercises}\label{review-exercises-1}
 
 \bibliography{book.bib,packages.bib}
 
