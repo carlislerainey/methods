@@ -1,5 +1,5 @@
 
-This is a set of notes introducing political science to a political science research methods.
+This is a set of notes introducing political science research methods.
 
 # Immediate To-Do
 - [ ] Fractions and Percentages
@@ -7,6 +7,12 @@ This is a set of notes introducing political science to a political science rese
    - [ ] add exercises
    - [ ] develop in-class example
    - [ ] add `state-governments` data set
+     - [x] create file to clean the data: `data/R/clean-state-governments.R`
+     - [x] create general .R file to create a vector of file types: `create-extensions.R`
+     - [x] create file to compress data: `data/R/compress-data.R`
+     - [x] initiate a .Rmd to describe the data sets: `data/data-sources.Rmd`
+     - [x] create a file that re-does all cleaning and compressing: `data/R/clean-compress-all.R`
+     - [ ] add quantitative state government ideology variable to data set
    - [ ] add `anes` data set
 
 # Outline
