@@ -1,6 +1,14 @@
 
 This is a set of notes introducing political science to a political science research methods.
 
+# Immediate To-Do
+- [ ] Fractions and Percentages
+   - [ ] rewrite text
+   - [ ] add exercises
+   - [ ] develop in-class example
+   - [ ] add `state-governments` data set
+   - [ ] add `anes` data set
+
 # Outline
   
 ## Part 1: Our Approach
