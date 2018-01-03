@@ -87,3 +87,20 @@ We can say three things about fractions:
 3. It is easier to talk about percents. After we finish all our calculations, we usually convert fractions to percents by multiplying the fraction by 100%. It usually round this percent to the nearest whole percent.
 
 ## Review Exercises
+
+1. Table \@ref(tab:govtcontroldata) shows the partisan control of each branch of the 49 U.S. states (excluding Nebraska) in 2011. Compute the fraction of states with a Republican governor. Repeat for house and senate. Is the fraction of Democratic governors, houses, and senates necessarily $1 - \text{fraction Republican}$? Why or why not? Which party has most control in the U.S. states? Can you think of any ways that control of state governments affect national politics? 
+
+```{r govtcontroldata, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE}
+# load packages
+library(tidyverse)
+library(magrittr)
+
+# load and clean data for example
+df <- read_rds("data/state-governments.rds") %>%
+  filter(year == 2011) %>%
+  select(-year) %>%
+  arrange(state)
+
+# print md table
+knitr::kable(df, align = "c", caption = "The partisan control of each branch of the 49 (excluding Nebraska) state governments in 2011.")
+```

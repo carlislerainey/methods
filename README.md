@@ -5,6 +5,10 @@ This is a set of notes introducing political science research methods.
 - [ ] Fractions and Percentages
    - [ ] rewrite text
    - [ ] add exercises
+     - [x] add exercise for `state-governments` data set
+     - [ ] add exercise for `anes` data set
+     - [ ] improve data sets and tables with kableExtra
+     (https://haozhu233.github.io/kableExtra/awesome_table_in_pdf.pdf)
    - [ ] develop in-class example
    - [ ] add `state-governments` data set
      - [x] create file to clean the data: `data/R/clean-state-governments.R`
