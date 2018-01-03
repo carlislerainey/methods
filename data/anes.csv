@@ -1,0 +1,1182 @@
+age,sex,ideology,party_id,health,health_insurance,aca_opinion
+29,Male,Not Sure,Republican,Good,Has Health Insurance,Oppose
+26,Male,Slightly Conservative,Republican,Fair,Has Health Insurance,Neither Favor Nor Oppose
+23,Male,Not Sure,Independent,Very Good,Has Health Insurance,Favor
+58,Male,Not Sure,No Preference,Good,Has Health Insurance,Oppose
+38,Female,Moderate,Independent,Good,Has Health Insurance,Neither Favor Nor Oppose
+60,Male,Conservative,No Preference,Very Good,Has Health Insurance,Oppose
+58,Male,Not Sure,Democrat,Fair,Has Health Insurance,Neither Favor Nor Oppose
+56,Female,Slightly Conservative,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+45,Male,Moderate,Independent,Good,Has Health Insurance,Oppose
+30,Female,Slightly Liberal,Independent,Good,Has Health Insurance,Favor
+40,Female,Not Sure,Independent,Good,Has Health Insurance,Oppose
+86,Female,Liberal,Independent,Fair,Has Health Insurance,Favor
+30,Male,Moderate,Other Party,Very Good,Has Health Insurance,Oppose
+67,Male,Not Sure,Democrat,Fair,Has Health Insurance,Oppose
+62,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+51,Male,Not Sure,Democrat,Good,Has Health Insurance,Oppose
+46,Male,Liberal,Democrat,Good,Has Health Insurance,Favor
+70,Male,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+30,Female,Slightly Liberal,Democrat,Excellent,Has Health Insurance,Favor
+67,Female,Not Sure,Republican,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+66,Female,Slightly Conservative,Republican,Very Good,Has Health Insurance,Oppose
+32,Female,Slightly Liberal,Republican,Very Good,Does Not Have Health Insurance,Oppose
+56,Female,Not Sure,No Preference,Very Good,Has Health Insurance,Favor
+65,Female,Conservative,No Preference,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+61,Male,Extremely Conservative,Independent,Fair,Has Health Insurance,Oppose
+34,Male,Not Sure,Independent,Fair,Does Not Have Health Insurance,Oppose
+68,Male,Liberal,Independent,Very Good,Has Health Insurance,Oppose
+25,Female,Not Sure,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+73,Male,Liberal,Independent,Good,Has Health Insurance,Favor
+67,Female,Moderate,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+35,Female,Liberal,Democrat,Good,Has Health Insurance,Favor
+64,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+73,Female,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+69,Male,Extremely Conservative,Independent,Good,Has Health Insurance,Oppose
+41,Female,Moderate,Republican,Excellent,Has Health Insurance,Favor
+67,Male,Liberal,Democrat,Good,Has Health Insurance,Favor
+59,Female,Not Sure,Independent,Good,Does Not Have Health Insurance,Oppose
+54,Male,Moderate,Republican,Very Good,Has Health Insurance,Oppose
+48,Male,Moderate,Independent,Fair,Has Health Insurance,Neither Favor Nor Oppose
+26,Female,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+,Female,Conservative,Independent,Good,Has Health Insurance,Oppose
+25,Female,Slightly Conservative,Republican,Excellent,Has Health Insurance,Oppose
+46,Female,Extremely Liberal,Democrat,Excellent,Has Health Insurance,Favor
+59,Male,Conservative,Republican,Excellent,Does Not Have Health Insurance,Oppose
+39,Female,Moderate,Independent,Fair,Has Health Insurance,Oppose
+52,Female,Slightly Liberal,Democrat,Good,Has Health Insurance,Favor
+29,Female,Conservative,Independent,Good,Does Not Have Health Insurance,Oppose
+46,Male,Moderate,Independent,Fair,Has Health Insurance,Oppose
+45,Male,Liberal,Democrat,Good,Has Health Insurance,Favor
+64,Male,Not Sure,Democrat,Fair,Does Not Have Health Insurance,Oppose
+43,Female,Moderate,Independent,Fair,Does Not Have Health Insurance,Favor
+61,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+30,Male,Slightly Conservative,Republican,Excellent,Has Health Insurance,Oppose
+55,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+35,Female,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+24,Female,Slightly Liberal,Independent,Very Good,Does Not Have Health Insurance,Oppose
+85,Female,Not Sure,Other Party,Good,Has Health Insurance,Favor
+61,Male,Moderate,Democrat,Fair,Has Health Insurance,Favor
+52,Female,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+56,Male,Not Sure,Independent,Good,Has Health Insurance,Oppose
+68,Male,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+76,Female,Not Sure,Democrat,Fair,Has Health Insurance,Neither Favor Nor Oppose
+31,Male,Moderate,Independent,Excellent,Has Health Insurance,Favor
+19,Female,Moderate,Republican,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+47,Female,Not Sure,Democrat,Very Good,Does Not Have Health Insurance,Oppose
+68,Female,Moderate,Independent,Fair,Has Health Insurance,Oppose
+57,Male,Liberal,Democrat,Good,Has Health Insurance,Favor
+27,Female,Slightly Conservative,Independent,Good,Has Health Insurance,Favor
+32,Female,Slightly Conservative,Independent,Very Good,Has Health Insurance,Favor
+45,Male,Liberal,Democrat,Fair,Has Health Insurance,Neither Favor Nor Oppose
+50,Female,Not Sure,Democrat,Good,Has Health Insurance,Neither Favor Nor Oppose
+68,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+60,Male,,Democrat,Excellent,Has Health Insurance,Favor
+36,Female,Liberal,Independent,Very Good,Has Health Insurance,Favor
+27,Female,Not Sure,Democrat,Good,Has Health Insurance,Favor
+-8,Male,Moderate,Republican,Good,Has Health Insurance,Oppose
+46,Female,Moderate,Independent,Fair,Has Health Insurance,Oppose
+35,Male,Slightly Liberal,Independent,Good,Does Not Have Health Insurance,Favor
+44,Female,Moderate,Independent,Good,Does Not Have Health Insurance,Oppose
+78,Female,Not Sure,Democrat,Good,Has Health Insurance,Favor
+83,Male,Conservative,Independent,Fair,Has Health Insurance,Oppose
+65,Female,Moderate,,Good,Has Health Insurance,Oppose
+55,Male,Moderate,Democrat,Poor,Has Health Insurance,Oppose
+69,Female,Not Sure,Democrat,Fair,Has Health Insurance,Favor
+55,Male,Moderate,Independent,Very Good,Has Health Insurance,Oppose
+31,Male,Slightly Liberal,No Preference,Very Good,Has Health Insurance,Oppose
+68,Male,Liberal,Independent,Very Good,Has Health Insurance,Favor
+42,Male,Moderate,Independent,Good,Has Health Insurance,Oppose
+82,Female,Conservative,Republican,Good,Has Health Insurance,Oppose
+53,Female,Extremely Conservative,Republican,Very Good,Has Health Insurance,Oppose
+65,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+42,Female,Liberal,Democrat,Good,Has Health Insurance,Favor
+48,Male,Moderate,Democrat,Fair,Has Health Insurance,Favor
+30,Male,Liberal,Democrat,Very Good,Does Not Have Health Insurance,Favor
+23,Female,Slightly Conservative,Independent,Good,Has Health Insurance,Neither Favor Nor Oppose
+51,Male,Slightly Conservative,Republican,Very Good,Has Health Insurance,Favor
+31,Female,Not Sure,Republican,Excellent,Has Health Insurance,Oppose
+68,Male,Moderate,Democrat,Good,Has Health Insurance,Favor
+66,Female,Moderate,No Preference,Good,Has Health Insurance,Oppose
+29,Female,Slightly Conservative,Republican,Very Good,Has Health Insurance,Oppose
+36,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+47,Female,Slightly Liberal,Democrat,Very Good,Has Health Insurance,Favor
+61,Male,Slightly Conservative,Independent,Good,Has Health Insurance,Neither Favor Nor Oppose
+26,Female,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+88,Male,Not Sure,Republican,Fair,Has Health Insurance,Oppose
+83,Female,Extremely Liberal,Democrat,Good,Has Health Insurance,Favor
+51,Male,Slightly Liberal,Independent,Very Good,Has Health Insurance,Favor
+36,Male,Slightly Conservative,Republican,Good,Has Health Insurance,Oppose
+68,Female,Moderate,Independent,Very Good,Has Health Insurance,Favor
+23,Male,Moderate,Independent,Good,Does Not Have Health Insurance,Neither Favor Nor Oppose
+34,Female,Not Sure,Independent,Good,Has Health Insurance,Oppose
+58,Female,Moderate,Independent,Very Good,Has Health Insurance,Oppose
+69,Male,Slightly Conservative,Independent,Very Good,Has Health Insurance,Oppose
+19,Male,Not Sure,Independent,Good,Has Health Insurance,Neither Favor Nor Oppose
+30,Male,Not Sure,Democrat,Excellent,Does Not Have Health Insurance,Favor
+75,Female,Moderate,Other Party,Fair,Has Health Insurance,Oppose
+50,Male,Moderate,Independent,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+54,Male,Not Sure,Democrat,Fair,Has Health Insurance,Neither Favor Nor Oppose
+38,Female,Not Sure,Democrat,Excellent,Has Health Insurance,Oppose
+27,Female,Moderate,Republican,Fair,Has Health Insurance,Neither Favor Nor Oppose
+69,Female,Not Sure,No Preference,Fair,Has Health Insurance,Oppose
+43,Female,Slightly Conservative,Republican,Excellent,Has Health Insurance,Oppose
+33,Female,Moderate,Independent,Very Good,Has Health Insurance,Oppose
+87,Female,Moderate,No Preference,Fair,Has Health Insurance,Oppose
+26,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+34,Female,Slightly Liberal,Republican,Poor,Has Health Insurance,Oppose
+33,Female,Liberal,Independent,Very Good,Has Health Insurance,Favor
+57,Male,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+27,Male,Moderate,Independent,Excellent,Has Health Insurance,Oppose
+38,Female,Slightly Conservative,Independent,Excellent,Has Health Insurance,Oppose
+81,Male,Not Sure,Democrat,Poor,Has Health Insurance,Favor
+51,Female,Moderate,Independent,Fair,Has Health Insurance,Neither Favor Nor Oppose
+75,Female,Moderate,Independent,Good,Has Health Insurance,Favor
+74,Female,Moderate,Republican,Excellent,Has Health Insurance,Oppose
+43,Male,Moderate,Independent,Excellent,Has Health Insurance,Favor
+58,Male,Moderate,Democrat,Good,Has Health Insurance,Neither Favor Nor Oppose
+36,Female,Extremely Liberal,Independent,Fair,Has Health Insurance,Oppose
+23,Female,Not Sure,Republican,Excellent,Has Health Insurance,Favor
+88,Female,Extremely Conservative,Republican,Poor,Has Health Insurance,Oppose
+57,Female,Slightly Conservative,Independent,Excellent,Has Health Insurance,Favor
+59,Female,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+86,Female,Conservative,Republican,Fair,Has Health Insurance,Neither Favor Nor Oppose
+57,Male,Extremely Liberal,Democrat,Very Good,Has Health Insurance,Favor
+84,Female,Not Sure,No Preference,Fair,Has Health Insurance,Neither Favor Nor Oppose
+60,Male,Slightly Conservative,Democrat,Fair,Does Not Have Health Insurance,Oppose
+45,Male,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+30,Male,Moderate,Republican,Good,Has Health Insurance,Oppose
+78,Male,Conservative,Independent,Fair,Has Health Insurance,Oppose
+72,Female,Slightly Conservative,Democrat,Fair,Has Health Insurance,Favor
+36,Male,Slightly Liberal,Independent,Good,Has Health Insurance,Neither Favor Nor Oppose
+86,Male,Slightly Conservative,Democrat,Poor,Has Health Insurance,Favor
+55,Male,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+50,Female,Not Sure,Independent,Good,Has Health Insurance,Oppose
+68,Male,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+69,Male,Liberal,Democrat,Good,Has Health Insurance,Favor
+62,Female,Moderate,Independent,Very Good,Has Health Insurance,Oppose
+42,Male,Moderate,Independent,Good,Has Health Insurance,Favor
+42,Female,Moderate,Democrat,Fair,Has Health Insurance,Favor
+25,Male,Moderate,Independent,Fair,Does Not Have Health Insurance,Oppose
+55,Male,Conservative,Independent,Poor,Has Health Insurance,Oppose
+76,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+31,Female,Extremely Liberal,Democrat,Very Good,Has Health Insurance,Favor
+52,Male,Not Sure,Democrat,Excellent,Does Not Have Health Insurance,Oppose
+35,Male,Liberal,Independent,Good,Has Health Insurance,Favor
+25,Male,Conservative,Democrat,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+34,Female,Conservative,Republican,Good,Has Health Insurance,Oppose
+38,Female,Not Sure,Independent,Poor,Has Health Insurance,Oppose
+73,Female,Slightly Conservative,Independent,Very Good,Does Not Have Health Insurance,Oppose
+52,Female,Moderate,Democrat,Very Good,Has Health Insurance,Favor
+66,Female,Moderate,Republican,Very Good,Has Health Insurance,Oppose
+65,Female,Moderate,Democrat,Fair,Has Health Insurance,Favor
+45,Female,Slightly Conservative,Republican,Fair,Has Health Insurance,Oppose
+59,Male,Not Sure,Republican,Good,Does Not Have Health Insurance,Oppose
+25,Male,Not Sure,Independent,Fair,Has Health Insurance,Oppose
+37,Female,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+66,Female,Not Sure,Democrat,Very Good,Has Health Insurance,Favor
+74,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+28,Male,Moderate,No Preference,Excellent,Has Health Insurance,Oppose
+57,Female,Moderate,Democrat,Good,Has Health Insurance,Favor
+27,Male,Not Sure,No Preference,Good,Has Health Insurance,Favor
+24,Male,Slightly Liberal,Democrat,Good,Has Health Insurance,Favor
+23,Male,Not Sure,,Fair,Has Health Insurance,Favor
+43,Male,Slightly Liberal,Independent,Good,Has Health Insurance,Oppose
+58,Female,Moderate,Independent,Good,Has Health Insurance,Oppose
+42,Female,Not Sure,Democrat,Fair,Does Not Have Health Insurance,Favor
+57,Female,Moderate,Democrat,Good,Has Health Insurance,Oppose
+30,Female,Slightly Conservative,No Preference,Fair,Does Not Have Health Insurance,Oppose
+69,Male,Not Sure,Democrat,Good,Has Health Insurance,Favor
+87,Female,Moderate,Republican,Good,Has Health Insurance,Favor
+56,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+18,Male,Not Sure,Republican,Fair,,Favor
+23,Male,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+71,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+19,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+44,Male,Moderate,Independent,Good,Has Health Insurance,Neither Favor Nor Oppose
+21,Female,Moderate,Independent,Good,Does Not Have Health Insurance,Neither Favor Nor Oppose
+67,Male,Not Sure,Independent,Poor,Has Health Insurance,Neither Favor Nor Oppose
+23,Female,Slightly Liberal,Independent,Fair,Has Health Insurance,Neither Favor Nor Oppose
+41,Female,Slightly Liberal,Democrat,Fair,Has Health Insurance,Favor
+49,Male,Not Sure,Republican,Good,Has Health Insurance,Neither Favor Nor Oppose
+78,Female,Extremely Conservative,Republican,Fair,Has Health Insurance,Oppose
+74,Female,Conservative,Republican,Fair,Has Health Insurance,Favor
+40,Female,Moderate,Independent,Good,Has Health Insurance,Neither Favor Nor Oppose
+53,Male,Conservative,Independent,Very Good,Has Health Insurance,Favor
+63,Male,Extremely Conservative,Republican,Good,Has Health Insurance,Oppose
+65,Female,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+64,Female,Moderate,Republican,Good,Has Health Insurance,Oppose
+24,Male,Conservative,Republican,Fair,Has Health Insurance,Oppose
+50,Male,Moderate,Independent,Good,Has Health Insurance,Favor
+23,Female,Slightly Conservative,Other Party,Good,Has Health Insurance,Neither Favor Nor Oppose
+25,Male,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+44,Female,Slightly Conservative,Independent,Good,Has Health Insurance,Oppose
+76,Female,Extremely Liberal,Democrat,Good,Has Health Insurance,Favor
+68,Male,Slightly Conservative,Independent,Very Good,Has Health Insurance,Oppose
+21,Female,Moderate,Independent,Good,Does Not Have Health Insurance,Neither Favor Nor Oppose
+67,Female,Conservative,Democrat,Poor,Has Health Insurance,Favor
+68,Female,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+35,Female,Extremely Liberal,Democrat,Excellent,Has Health Insurance,Favor
+61,Male,Slightly Conservative,Republican,Good,Has Health Insurance,Oppose
+25,Male,Liberal,Democrat,Good,Has Health Insurance,Neither Favor Nor Oppose
+67,Male,Slightly Liberal,Democrat,Good,Has Health Insurance,Favor
+69,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+68,Female,Moderate,Independent,Very Good,Has Health Insurance,Oppose
+32,Male,,Independent,Very Good,Has Health Insurance,Favor
+62,Male,Extremely Conservative,Other Party,Poor,Has Health Insurance,Oppose
+69,Female,Conservative,Republican,Good,Has Health Insurance,Oppose
+85,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+88,Female,Not Sure,Republican,Good,Has Health Insurance,Neither Favor Nor Oppose
+26,Male,Slightly Conservative,Republican,Poor,Does Not Have Health Insurance,Neither Favor Nor Oppose
+38,Male,Not Sure,Independent,Very Good,Does Not Have Health Insurance,Neither Favor Nor Oppose
+50,Female,Not Sure,Independent,Very Good,Has Health Insurance,Favor
+54,Female,Liberal,Independent,Excellent,Has Health Insurance,Favor
+68,Female,Slightly Liberal,Independent,Excellent,Has Health Insurance,Favor
+,Female,Moderate,Democrat,Good,Has Health Insurance,Favor
+45,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+60,Female,Moderate,Independent,Very Good,Has Health Insurance,Oppose
+53,Female,Conservative,Republican,Fair,Has Health Insurance,Oppose
+70,Female,Conservative,Republican,Good,Has Health Insurance,Favor
+75,Male,Extremely Conservative,Republican,Fair,Has Health Insurance,Oppose
+57,Female,Extremely Conservative,Republican,Very Good,Has Health Insurance,Oppose
+59,Female,Moderate,Independent,Good,Has Health Insurance,Neither Favor Nor Oppose
+76,Female,Liberal,Democrat,Poor,Has Health Insurance,Oppose
+61,Male,Moderate,Republican,Fair,Has Health Insurance,Favor
+20,Male,Slightly Liberal,Independent,Very Good,Has Health Insurance,Favor
+62,Male,Slightly Conservative,Independent,Good,Has Health Insurance,Oppose
+40,Female,Slightly Conservative,Republican,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+24,Male,Moderate,Democrat,Very Good,Has Health Insurance,Favor
+47,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+24,Male,Liberal,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+61,Male,Not Sure,Republican,Good,Has Health Insurance,Oppose
+63,Female,Slightly Liberal,Democrat,Excellent,Has Health Insurance,Favor
+32,Female,Extremely Liberal,Independent,Very Good,Has Health Insurance,Favor
+51,Male,Moderate,Democrat,Excellent,Has Health Insurance,Favor
+50,Female,Slightly Liberal,Independent,Good,Has Health Insurance,Neither Favor Nor Oppose
+30,Female,Slightly Conservative,Independent,Excellent,Has Health Insurance,Oppose
+60,Male,Not Sure,Independent,Excellent,Has Health Insurance,Favor
+29,Male,Slightly Conservative,Independent,Fair,Has Health Insurance,Favor
+63,Female,Slightly Liberal,Democrat,Good,Has Health Insurance,Favor
+88,Male,Moderate,No Preference,Good,Has Health Insurance,Oppose
+63,Male,Not Sure,Independent,Good,Has Health Insurance,Oppose
+25,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+72,Female,Not Sure,Democrat,Good,Has Health Insurance,Favor
+60,Female,Liberal,No Preference,Fair,Has Health Insurance,Favor
+62,Male,Slightly Conservative,Republican,Very Good,Has Health Insurance,Oppose
+49,Female,Conservative,Republican,Excellent,Has Health Insurance,Favor
+80,Male,Conservative,Republican,Poor,Has Health Insurance,Oppose
+84,Male,Not Sure,Independent,Poor,Has Health Insurance,Oppose
+22,Male,Slightly Liberal,Democrat,Very Good,Does Not Have Health Insurance,Favor
+26,Female,Not Sure,No Preference,Very Good,Has Health Insurance,Favor
+64,Female,Not Sure,Independent,Poor,Has Health Insurance,Oppose
+23,Female,Conservative,Democrat,Good,Has Health Insurance,Oppose
+38,Male,Not Sure,Democrat,Very Good,Has Health Insurance,Favor
+77,Female,Not Sure,Republican,Fair,Has Health Insurance,Oppose
+19,Female,Moderate,Democrat,Excellent,Has Health Insurance,Favor
+90,Female,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+31,Female,Moderate,Democrat,Good,Has Health Insurance,Oppose
+59,Female,Extremely Conservative,Republican,Good,Has Health Insurance,Oppose
+45,Male,Conservative,Republican,Excellent,Has Health Insurance,Favor
+66,Female,Moderate,Independent,Good,Has Health Insurance,Favor
+23,Male,Conservative,Republican,Very Good,Has Health Insurance,Favor
+26,Female,Moderate,Democrat,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+59,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+63,Female,Liberal,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+77,Male,Not Sure,Democrat,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+28,Male,Conservative,Democrat,Very Good,Has Health Insurance,Favor
+27,Male,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+,Female,Moderate,Democrat,Excellent,Has Health Insurance,Favor
+20,Female,Not Sure,Republican,Very Good,Has Health Insurance,Favor
+40,Female,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+50,Male,Not Sure,Independent,Good,Has Health Insurance,Oppose
+71,Female,Moderate,Independent,Good,Has Health Insurance,Oppose
+90,Female,Not Sure,Democrat,Good,Has Health Insurance,Favor
+34,Female,Not Sure,Democrat,Good,Has Health Insurance,Favor
+49,Female,Not Sure,Democrat,Fair,Does Not Have Health Insurance,Neither Favor Nor Oppose
+27,Male,Slightly Liberal,Independent,Very Good,Has Health Insurance,Oppose
+48,Male,Moderate,Republican,Good,Has Health Insurance,Oppose
+49,Male,Slightly Conservative,Republican,Good,Does Not Have Health Insurance,Favor
+24,Male,Slightly Liberal,Democrat,Fair,Does Not Have Health Insurance,Neither Favor Nor Oppose
+56,Male,Not Sure,Independent,Good,Does Not Have Health Insurance,Favor
+78,Male,Slightly Liberal,Democrat,Good,Has Health Insurance,Favor
+24,Male,Slightly Conservative,Independent,Excellent,Has Health Insurance,Oppose
+63,Female,Conservative,Republican,Fair,Has Health Insurance,Neither Favor Nor Oppose
+71,Male,Extremely Liberal,Independent,Good,Has Health Insurance,Favor
+44,Male,Moderate,Other Party,Good,Has Health Insurance,Oppose
+21,Female,Not Sure,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+30,Female,Conservative,Republican,Good,Has Health Insurance,Oppose
+21,Male,Moderate,Independent,Good,Does Not Have Health Insurance,Favor
+29,Female,Conservative,Republican,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+76,Male,Moderate,Independent,Good,Has Health Insurance,Favor
+42,Female,Moderate,Republican,Good,Has Health Insurance,Oppose
+24,Female,Moderate,Democrat,Good,Does Not Have Health Insurance,Neither Favor Nor Oppose
+74,Male,Slightly Conservative,Independent,Fair,Does Not Have Health Insurance,Oppose
+51,Male,Not Sure,Republican,Excellent,Has Health Insurance,Oppose
+76,Female,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+25,Male,Conservative,Democrat,Very Good,Has Health Insurance,Favor
+60,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+30,Female,Moderate,Republican,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+61,Female,Extremely Conservative,Republican,Poor,Has Health Insurance,Oppose
+48,Female,Slightly Conservative,Democrat,Very Good,Has Health Insurance,Oppose
+39,Male,Slightly Liberal,Independent,Excellent,Does Not Have Health Insurance,Favor
+50,Female,Moderate,Independent,Excellent,Has Health Insurance,Oppose
+36,Female,Moderate,Democrat,Very Good,Has Health Insurance,Favor
+58,Male,Liberal,Independent,Very Good,Has Health Insurance,Favor
+30,Male,Slightly Liberal,Independent,Good,Has Health Insurance,Favor
+52,Female,Slightly Liberal,No Preference,Good,Has Health Insurance,Favor
+54,Male,Conservative,Republican,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+70,Male,Extremely Conservative,Republican,Good,Has Health Insurance,Oppose
+81,Female,Conservative,Independent,Good,Has Health Insurance,Oppose
+41,Male,Conservative,Independent,Good,Has Health Insurance,Oppose
+23,Male,Slightly Liberal,Independent,Good,Has Health Insurance,Favor
+45,Female,Slightly Liberal,Other Party,Good,Has Health Insurance,Oppose
+46,Male,Conservative,Republican,Excellent,Has Health Insurance,Favor
+72,Female,Not Sure,Democrat,Fair,Has Health Insurance,Neither Favor Nor Oppose
+59,Female,Not Sure,Democrat,Fair,Does Not Have Health Insurance,Favor
+57,Female,Slightly Liberal,Democrat,Good,Does Not Have Health Insurance,Oppose
+35,Male,Liberal,Democrat,Excellent,Does Not Have Health Insurance,Neither Favor Nor Oppose
+40,Female,Moderate,Other Party,Excellent,Has Health Insurance,Favor
+55,Female,Slightly Liberal,Independent,Good,Has Health Insurance,Favor
+79,Female,Conservative,Republican,Fair,Does Not Have Health Insurance,Oppose
+28,Male,Slightly Liberal,Independent,Very Good,Has Health Insurance,Favor
+,Male,Moderate,Independent,Very Good,Has Health Insurance,Favor
+56,Female,Slightly Conservative,Independent,Very Good,Has Health Insurance,Favor
+35,Male,Not Sure,No Preference,Poor,Does Not Have Health Insurance,Oppose
+58,Female,Liberal,Democrat,Good,Has Health Insurance,Favor
+60,Female,Extremely Conservative,Republican,Poor,Has Health Insurance,Oppose
+57,Female,Conservative,Republican,Good,Has Health Insurance,Oppose
+58,Female,Not Sure,Democrat,Fair,Does Not Have Health Insurance,Neither Favor Nor Oppose
+87,Male,Extremely Conservative,Republican,Fair,Has Health Insurance,Oppose
+47,Female,Extremely Liberal,Independent,Good,Does Not Have Health Insurance,Favor
+59,Female,Moderate,Independent,Excellent,Has Health Insurance,Favor
+84,Male,Not Sure,Democrat,Good,Has Health Insurance,Oppose
+50,Male,Moderate,Independent,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+48,Male,Liberal,Democrat,Good,Has Health Insurance,Favor
+47,Female,Slightly Liberal,Democrat,Very Good,Has Health Insurance,Favor
+57,Female,Extremely Conservative,Republican,Very Good,Has Health Insurance,Oppose
+24,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+45,Male,Moderate,Republican,Good,Has Health Insurance,Oppose
+62,Female,Slightly Conservative,Republican,Good,Has Health Insurance,Oppose
+60,Male,Slightly Liberal,Democrat,Very Good,Has Health Insurance,Favor
+66,Female,Conservative,Republican,Good,Has Health Insurance,Oppose
+30,Male,Slightly Liberal,Democrat,Very Good,Has Health Insurance,Favor
+49,Female,Not Sure,Democrat,Excellent,Has Health Insurance,Favor
+90,Male,Conservative,Independent,Fair,Has Health Insurance,Favor
+23,Female,Extremely Liberal,Democrat,Very Good,Has Health Insurance,Favor
+70,Female,Conservative,No Preference,Excellent,Has Health Insurance,Oppose
+28,Female,Not Sure,No Preference,Fair,Does Not Have Health Insurance,Neither Favor Nor Oppose
+39,Female,Moderate,Independent,Good,Has Health Insurance,Favor
+46,Male,Moderate,No Preference,Poor,Does Not Have Health Insurance,Favor
+61,Male,Slightly Conservative,Democrat,Good,Has Health Insurance,Favor
+40,Female,Slightly Liberal,Democrat,Excellent,Has Health Insurance,Favor
+40,Male,Extremely Conservative,Republican,Fair,Has Health Insurance,Oppose
+31,Female,Slightly Liberal,Democrat,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+66,Female,Not Sure,Democrat,Fair,Has Health Insurance,Favor
+48,Male,Slightly Conservative,Republican,Good,Has Health Insurance,Oppose
+59,Male,Slightly Conservative,Democrat,Fair,Has Health Insurance,Favor
+58,Male,Moderate,Democrat,Fair,Has Health Insurance,Favor
+37,Female,Extremely Liberal,Other Party,Fair,Has Health Insurance,Favor
+34,Male,Slightly Conservative,Republican,Excellent,Has Health Insurance,Favor
+36,Male,Liberal,Independent,Fair,Has Health Insurance,Favor
+41,Male,Conservative,Independent,Very Good,Has Health Insurance,Oppose
+58,Female,Not Sure,Democrat,Very Good,Has Health Insurance,Favor
+21,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+35,Male,Not Sure,Democrat,Good,Has Health Insurance,Favor
+75,Male,Slightly Liberal,Democrat,Good,Has Health Insurance,Neither Favor Nor Oppose
+88,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+50,Female,Moderate,Democrat,Very Good,Has Health Insurance,Favor
+38,Female,Moderate,Independent,Very Good,Has Health Insurance,Favor
+63,Male,Slightly Conservative,Independent,Good,Has Health Insurance,Oppose
+47,Female,Slightly Conservative,Republican,Good,Has Health Insurance,Neither Favor Nor Oppose
+32,Male,Slightly Conservative,Independent,Excellent,Has Health Insurance,Oppose
+,Male,Conservative,Independent,Good,Has Health Insurance,Neither Favor Nor Oppose
+59,Female,Moderate,Republican,Excellent,Has Health Insurance,Oppose
+79,Male,Moderate,Republican,Very Good,Has Health Insurance,Oppose
+37,Female,Slightly Liberal,Independent,Very Good,Has Health Insurance,Favor
+76,Female,Liberal,Democrat,Good,Has Health Insurance,Favor
+48,Female,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+66,Female,Not Sure,Democrat,Fair,Has Health Insurance,Favor
+54,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+60,Female,Not Sure,Independent,Fair,,Oppose
+26,Male,Not Sure,Republican,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+66,Female,Moderate,Independent,Fair,Has Health Insurance,Oppose
+42,Female,Not Sure,Democrat,Very Good,Has Health Insurance,Favor
+33,Female,Liberal,Democrat,Good,Has Health Insurance,Favor
+21,Male,Moderate,Republican,Good,Has Health Insurance,Oppose
+47,Male,Slightly Conservative,Independent,Very Good,Has Health Insurance,Oppose
+52,Female,Liberal,Democrat,Good,Has Health Insurance,Favor
+52,Male,Slightly Conservative,Democrat,Fair,Has Health Insurance,Favor
+35,Male,Slightly Liberal,Independent,Excellent,Has Health Insurance,Favor
+55,Male,Moderate,Independent,Very Good,Has Health Insurance,Favor
+61,Female,Slightly Liberal,Independent,Very Good,Has Health Insurance,Favor
+54,Male,Conservative,Independent,Good,Does Not Have Health Insurance,Oppose
+36,Female,Not Sure,Independent,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+57,Female,Not Sure,Republican,Very Good,Has Health Insurance,Oppose
+82,Male,Not Sure,Republican,Very Good,Has Health Insurance,Oppose
+72,Male,Not Sure,Democrat,Good,Has Health Insurance,Favor
+56,Female,Moderate,Democrat,Excellent,Has Health Insurance,Favor
+80,Male,Moderate,Independent,Very Good,Does Not Have Health Insurance,Favor
+52,Male,Conservative,Democrat,Excellent,Has Health Insurance,Favor
+21,Female,Moderate,Independent,Good,Has Health Insurance,Oppose
+28,Male,Moderate,Democrat,Fair,Does Not Have Health Insurance,Oppose
+20,Female,Not Sure,Independent,Very Good,Has Health Insurance,Favor
+55,Male,Liberal,Republican,Fair,Has Health Insurance,Favor
+47,Female,Slightly Conservative,Democrat,Excellent,Has Health Insurance,Favor
+85,Female,Extremely Conservative,Republican,Good,Has Health Insurance,
+73,Female,Not Sure,Democrat,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+27,Female,Not Sure,Independent,Good,Has Health Insurance,Favor
+41,Female,Not Sure,Democrat,Excellent,Has Health Insurance,Oppose
+27,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+75,Male,Not Sure,Independent,Good,Has Health Insurance,Neither Favor Nor Oppose
+45,Male,Liberal,Independent,Fair,Has Health Insurance,Favor
+66,Male,Slightly Conservative,Republican,Good,Has Health Insurance,Favor
+51,Male,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+58,Male,Moderate,Democrat,Fair,Has Health Insurance,Favor
+34,Male,Conservative,Independent,Excellent,Does Not Have Health Insurance,Oppose
+80,Male,Extremely Conservative,Republican,Very Good,Has Health Insurance,Oppose
+26,Male,Extremely Conservative,Independent,Good,Does Not Have Health Insurance,Oppose
+48,Female,Not Sure,Independent,Poor,Has Health Insurance,Oppose
+35,Female,Conservative,Other Party,Very Good,Has Health Insurance,Oppose
+76,Female,Not Sure,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+33,Female,Slightly Conservative,Independent,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+48,Female,Conservative,Republican,Good,Has Health Insurance,Oppose
+29,Male,Not Sure,Independent,Fair,Has Health Insurance,Favor
+67,Female,Slightly Liberal,Democrat,Very Good,Has Health Insurance,Favor
+39,Male,Moderate,Independent,Very Good,Has Health Insurance,Oppose
+27,Male,Slightly Conservative,Republican,Very Good,Has Health Insurance,Oppose
+71,Male,Conservative,Independent,Good,Has Health Insurance,Oppose
+42,Female,Not Sure,Democrat,Good,Has Health Insurance,Favor
+36,Female,Liberal,Democrat,Good,Has Health Insurance,Favor
+53,Female,Moderate,Independent,Fair,Has Health Insurance,Neither Favor Nor Oppose
+21,Female,Not Sure,Independent,Fair,Does Not Have Health Insurance,Oppose
+35,Male,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+66,Female,Moderate,Democrat,Very Good,Has Health Insurance,Favor
+49,Female,Conservative,Republican,Good,Has Health Insurance,Oppose
+68,Female,Not Sure,Democrat,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+63,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+88,Female,Extremely Conservative,Republican,Excellent,Has Health Insurance,Oppose
+23,Male,Slightly Liberal,Republican,Excellent,Has Health Insurance,Favor
+71,Female,Moderate,Democrat,Very Good,Has Health Insurance,Favor
+,Male,,No Preference,Fair,Has Health Insurance,Oppose
+20,Male,Not Sure,,Very Good,Does Not Have Health Insurance,Oppose
+55,Male,Not Sure,Independent,Fair,Has Health Insurance,Oppose
+65,Male,Extremely Conservative,Republican,Poor,Has Health Insurance,Neither Favor Nor Oppose
+27,Female,Slightly Conservative,Independent,Good,Has Health Insurance,Oppose
+69,Female,Moderate,Republican,Good,Has Health Insurance,Favor
+26,Female,Not Sure,Independent,Poor,Has Health Insurance,Favor
+65,Male,Not Sure,Independent,Fair,Has Health Insurance,Favor
+66,Female,Conservative,Republican,Good,Has Health Insurance,Oppose
+42,Female,Slightly Liberal,Republican,Very Good,Has Health Insurance,Oppose
+74,Male,Conservative,Independent,Very Good,Has Health Insurance,Oppose
+26,Female,Slightly Conservative,No Preference,Fair,Does Not Have Health Insurance,Neither Favor Nor Oppose
+40,Female,Slightly Liberal,Independent,Very Good,Has Health Insurance,Favor
+81,Female,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+49,Female,Not Sure,Independent,Very Good,Has Health Insurance,Oppose
+59,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+42,Female,Slightly Liberal,Democrat,Very Good,Has Health Insurance,Favor
+34,Male,Not Sure,Independent,Very Good,Has Health Insurance,Favor
+46,Female,Moderate,Independent,Very Good,Has Health Insurance,Favor
+36,Male,Slightly Conservative,Independent,Very Good,Has Health Insurance,Oppose
+63,Male,Slightly Conservative,Independent,Good,Has Health Insurance,Oppose
+45,Female,Not Sure,Independent,Fair,Has Health Insurance,Neither Favor Nor Oppose
+,Female,Moderate,Democrat,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+71,Female,Slightly Conservative,Republican,Good,Has Health Insurance,Oppose
+73,Female,Not Sure,Independent,Fair,Has Health Insurance,Favor
+83,Female,Not Sure,Republican,Fair,Has Health Insurance,Oppose
+40,Female,Not Sure,Republican,Good,Has Health Insurance,Oppose
+56,Male,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+43,Female,Liberal,Democrat,Poor,Has Health Insurance,Favor
+46,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+36,Male,Not Sure,Independent,Good,Has Health Insurance,Neither Favor Nor Oppose
+21,Male,Slightly Conservative,Republican,Good,Has Health Insurance,Oppose
+74,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+,Female,Slightly Conservative,Republican,Good,Has Health Insurance,Oppose
+61,Male,Moderate,Independent,Good,Has Health Insurance,Neither Favor Nor Oppose
+67,Female,Not Sure,Democrat,Excellent,Has Health Insurance,Favor
+65,Female,Conservative,Independent,Fair,Has Health Insurance,Oppose
+41,Female,Moderate,Independent,Fair,Has Health Insurance,Favor
+66,Female,Slightly Conservative,Independent,Fair,Has Health Insurance,Oppose
+54,Male,Slightly Conservative,Independent,Good,Has Health Insurance,Favor
+58,Female,Not Sure,Independent,Very Good,Has Health Insurance,Favor
+22,Male,Not Sure,,Fair,Has Health Insurance,Neither Favor Nor Oppose
+35,Male,Extremely Conservative,Other Party,Very Good,Has Health Insurance,Oppose
+45,Female,Extremely Liberal,Democrat,Good,Has Health Insurance,Oppose
+31,Female,Moderate,Independent,Excellent,Has Health Insurance,Oppose
+40,Male,Moderate,Independent,Very Good,Has Health Insurance,Favor
+34,Female,Not Sure,Independent,Good,Has Health Insurance,Favor
+,Female,Moderate,Republican,Fair,Has Health Insurance,Oppose
+71,Male,Conservative,Republican,Excellent,Has Health Insurance,Favor
+76,Female,Not Sure,Independent,Good,Has Health Insurance,Favor
+34,Male,Moderate,No Preference,Poor,Has Health Insurance,Oppose
+27,Male,Moderate,Republican,Fair,Has Health Insurance,Favor
+68,Male,Slightly Conservative,Independent,Good,Has Health Insurance,Oppose
+62,Male,Moderate,Independent,Good,Has Health Insurance,Favor
+76,Female,Moderate,Independent,Good,Has Health Insurance,Oppose
+69,Female,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+68,Female,Conservative,Republican,Fair,Has Health Insurance,Oppose
+52,Male,Not Sure,No Preference,Good,Has Health Insurance,Neither Favor Nor Oppose
+64,Male,Extremely Conservative,Republican,Very Good,Has Health Insurance,Oppose
+52,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+30,Female,Slightly Conservative,Independent,Very Good,Has Health Insurance,Favor
+68,Male,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+53,Female,Slightly Conservative,Republican,Very Good,Has Health Insurance,Oppose
+41,Female,Not Sure,Independent,Fair,Has Health Insurance,Neither Favor Nor Oppose
+43,Male,Moderate,Independent,Very Good,Has Health Insurance,Oppose
+26,Female,Slightly Conservative,Independent,Excellent,Has Health Insurance,Oppose
+37,Male,Moderate,Independent,Very Good,Has Health Insurance,Oppose
+69,Female,Slightly Conservative,Independent,Good,Has Health Insurance,Oppose
+74,Female,Liberal,Independent,Very Good,Has Health Insurance,Favor
+21,Male,Moderate,Republican,Good,Has Health Insurance,Oppose
+42,Female,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+50,Male,Extremely Conservative,Republican,Excellent,Has Health Insurance,Oppose
+45,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+60,Female,Conservative,Independent,Fair,Has Health Insurance,Oppose
+32,Male,Not Sure,Independent,Very Good,Does Not Have Health Insurance,Oppose
+44,Female,Not Sure,Independent,Fair,Has Health Insurance,Favor
+48,Male,Moderate,No Preference,Poor,Does Not Have Health Insurance,Oppose
+27,Female,Moderate,Independent,Very Good,Does Not Have Health Insurance,Oppose
+53,Female,Extremely Conservative,Republican,Very Good,Has Health Insurance,Oppose
+29,Female,Moderate,Democrat,Very Good,Has Health Insurance,Oppose
+53,Female,Liberal,Democrat,Good,Has Health Insurance,Favor
+32,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+31,Male,Slightly Liberal,No Preference,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+77,Female,Conservative,Republican,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+26,Female,Not Sure,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+29,Female,Conservative,Republican,Very Good,Does Not Have Health Insurance,Oppose
+62,Female,Slightly Liberal,Independent,Fair,Has Health Insurance,Oppose
+,Male,Conservative,Independent,Good,Has Health Insurance,Oppose
+50,Male,Not Sure,Democrat,Excellent,Has Health Insurance,Favor
+42,Male,Slightly Liberal,Independent,Good,Has Health Insurance,Oppose
+59,Female,Not Sure,No Preference,Good,Has Health Insurance,Favor
+,Male,Moderate,Independent,Good,Has Health Insurance,Favor
+53,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+65,Female,Slightly Liberal,Democrat,Excellent,Has Health Insurance,Favor
+72,Male,Moderate,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+38,Male,Slightly Conservative,Republican,Good,Has Health Insurance,Oppose
+71,Female,Conservative,Republican,Good,Has Health Insurance,Oppose
+51,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+34,Female,Slightly Conservative,Republican,Good,Has Health Insurance,Oppose
+54,Female,Conservative,Republican,Good,Has Health Insurance,Oppose
+53,Male,Slightly Conservative,Republican,Fair,Has Health Insurance,Neither Favor Nor Oppose
+56,Male,Moderate,Democrat,Good,Has Health Insurance,Neither Favor Nor Oppose
+27,Male,Slightly Liberal,Democrat,Very Good,Has Health Insurance,Favor
+21,Male,Moderate,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+66,Male,Moderate,Democrat,Good,Has Health Insurance,Favor
+,Male,Moderate,Independent,Good,Has Health Insurance,Oppose
+81,Female,Moderate,Democrat,Very Good,Has Health Insurance,Oppose
+70,Female,Not Sure,Democrat,Good,Has Health Insurance,Oppose
+79,Male,Moderate,Independent,Good,Has Health Insurance,Favor
+63,Female,Conservative,Democrat,Good,Does Not Have Health Insurance,Oppose
+54,Female,Liberal,Democrat,Fair,Has Health Insurance,Neither Favor Nor Oppose
+50,Female,Moderate,Democrat,Good,Has Health Insurance,Favor
+39,Male,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+54,Female,Extremely Liberal,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+23,Male,Slightly Liberal,Democrat,Very Good,Has Health Insurance,Favor
+46,Male,Extremely Liberal,Democrat,Good,Has Health Insurance,Favor
+33,Male,Conservative,Independent,Good,Has Health Insurance,Oppose
+78,Female,Conservative,No Preference,Very Good,Has Health Insurance,Oppose
+70,Female,Slightly Liberal,Democrat,Good,Has Health Insurance,Favor
+42,Male,Slightly Conservative,No Preference,Very Good,Has Health Insurance,Favor
+55,Male,Liberal,Democrat,Good,Has Health Insurance,Favor
+21,Female,Slightly Conservative,Republican,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+28,Male,Conservative,Independent,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+80,Female,Conservative,Republican,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+30,Male,Liberal,Independent,Good,Has Health Insurance,Favor
+38,Male,Not Sure,Independent,Poor,Has Health Insurance,Neither Favor Nor Oppose
+,Female,Not Sure,Democrat,Good,Has Health Insurance,Favor
+60,Female,Not Sure,Democrat,Very Good,Has Health Insurance,Favor
+80,Male,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+39,Male,Slightly Liberal,Democrat,Excellent,Has Health Insurance,Favor
+58,Female,Moderate,Democrat,Good,Has Health Insurance,
+58,Male,Slightly Conservative,Independent,Fair,Has Health Insurance,Oppose
+23,Female,Slightly Conservative,Republican,Excellent,Has Health Insurance,Oppose
+26,Male,Not Sure,Independent,Good,Does Not Have Health Insurance,Favor
+62,Female,Moderate,Republican,Good,Has Health Insurance,Oppose
+45,Male,Slightly Liberal,Democrat,Very Good,Has Health Insurance,Oppose
+34,Female,Extremely Liberal,Other Party,Fair,Has Health Insurance,Neither Favor Nor Oppose
+29,Female,Slightly Conservative,Republican,Good,Does Not Have Health Insurance,Oppose
+36,Female,Not Sure,Independent,Good,Has Health Insurance,Oppose
+25,Male,Liberal,Independent,Very Good,Does Not Have Health Insurance,Favor
+67,Female,Not Sure,Democrat,Good,Has Health Insurance,Favor
+36,Male,Slightly Liberal,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+27,Male,Not Sure,Independent,Excellent,Has Health Insurance,Oppose
+24,Male,Slightly Conservative,Republican,Very Good,Has Health Insurance,Oppose
+52,Male,Slightly Conservative,Republican,Fair,Has Health Insurance,Favor
+23,Female,Slightly Conservative,Independent,Good,Does Not Have Health Insurance,Oppose
+27,Female,Slightly Conservative,Republican,Very Good,Has Health Insurance,Oppose
+29,Female,Liberal,Independent,Good,Has Health Insurance,Neither Favor Nor Oppose
+90,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+46,Female,Not Sure,Independent,Good,Has Health Insurance,Favor
+81,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+68,Male,Liberal,Independent,Fair,Has Health Insurance,Neither Favor Nor Oppose
+39,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+34,Female,Liberal,Democrat,Fair,Has Health Insurance,Oppose
+19,Male,Slightly Conservative,Republican,Good,Has Health Insurance,Neither Favor Nor Oppose
+65,Female,Conservative,Independent,Very Good,Has Health Insurance,Oppose
+31,Female,Not Sure,Democrat,Very Good,Has Health Insurance,Favor
+35,Male,Moderate,Independent,Very Good,Does Not Have Health Insurance,Oppose
+65,Female,Extremely Conservative,Republican,Good,Has Health Insurance,Favor
+22,Male,Not Sure,Independent,Fair,Has Health Insurance,Neither Favor Nor Oppose
+45,Male,Extremely Conservative,Republican,Good,Has Health Insurance,Oppose
+57,Female,Moderate,Independent,Excellent,Has Health Insurance,Oppose
+43,Male,Liberal,Independent,Excellent,Has Health Insurance,Favor
+26,Female,Extremely Liberal,Democrat,Very Good,Has Health Insurance,Favor
+47,Female,Moderate,Democrat,Fair,Has Health Insurance,Favor
+62,Male,Slightly Liberal,Republican,Good,Has Health Insurance,Favor
+36,Male,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+43,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+74,Female,Extremely Liberal,Democrat,Good,Has Health Insurance,Favor
+54,Female,Not Sure,Democrat,Good,Has Health Insurance,Favor
+45,Male,Slightly Conservative,Independent,Very Good,Has Health Insurance,Oppose
+57,Female,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+30,Male,Moderate,Independent,Good,Does Not Have Health Insurance,Neither Favor Nor Oppose
+38,Female,Not Sure,Independent,Very Good,Does Not Have Health Insurance,Favor
+60,Male,Extremely Conservative,Republican,Good,Has Health Insurance,Oppose
+23,Female,Extremely Liberal,Democrat,Good,Has Health Insurance,Favor
+22,Female,Moderate,Republican,Good,Has Health Insurance,Oppose
+29,Male,Not Sure,Democrat,Very Good,Does Not Have Health Insurance,Neither Favor Nor Oppose
+60,Female,Slightly Conservative,Democrat,Very Good,Has Health Insurance,Favor
+75,Male,Not Sure,Independent,Good,Has Health Insurance,Oppose
+,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+66,Male,Moderate,No Preference,Good,Does Not Have Health Insurance,Neither Favor Nor Oppose
+64,Male,Extremely Liberal,Democrat,Good,Has Health Insurance,Favor
+32,Female,Not Sure,Other Party,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+44,Female,Moderate,Independent,Fair,Has Health Insurance,Favor
+49,Female,Conservative,Republican,Very Good,Has Health Insurance,Favor
+29,Female,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+49,Male,Not Sure,Independent,Good,Has Health Insurance,Oppose
+39,Male,Liberal,Democrat,Fair,Does Not Have Health Insurance,Favor
+62,Male,Conservative,Republican,Very Good,Has Health Insurance,Favor
+57,Female,Slightly Liberal,Democrat,Fair,Has Health Insurance,Favor
+24,Male,Not Sure,Democrat,Very Good,Has Health Insurance,Favor
+66,Male,Not Sure,Democrat,Good,Has Health Insurance,Neither Favor Nor Oppose
+77,Male,Slightly Conservative,Independent,Very Good,Has Health Insurance,Oppose
+58,Female,Moderate,Democrat,Excellent,Has Health Insurance,Favor
+31,Male,Not Sure,Independent,Fair,Has Health Insurance,Oppose
+59,Male,Slightly Conservative,Republican,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+59,Female,Extremely Conservative,Independent,Very Good,Has Health Insurance,Oppose
+23,Female,Not Sure,Independent,Excellent,Has Health Insurance,Favor
+56,Male,Moderate,Independent,Poor,Does Not Have Health Insurance,Oppose
+34,Female,Moderate,Democrat,Good,Has Health Insurance,Favor
+44,Male,Conservative,Independent,Good,Has Health Insurance,Favor
+24,Female,Slightly Conservative,Republican,Excellent,Has Health Insurance,Oppose
+24,Male,Extremely Conservative,Independent,Good,Has Health Insurance,Favor
+51,Female,Moderate,Democrat,Good,Has Health Insurance,Favor
+62,Male,Slightly Conservative,Independent,Very Good,Has Health Insurance,Favor
+36,Female,Moderate,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+34,Female,Not Sure,Democrat,Good,Has Health Insurance,Oppose
+51,Male,,Democrat,Very Good,Has Health Insurance,Favor
+53,Female,Slightly Conservative,Republican,Fair,Has Health Insurance,Oppose
+58,Female,Slightly Liberal,Republican,Very Good,Has Health Insurance,Favor
+63,Female,Moderate,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+42,Male,Not Sure,No Preference,Poor,Does Not Have Health Insurance,Oppose
+21,Male,Extremely Liberal,Independent,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+76,Female,Liberal,Democrat,Good,Has Health Insurance,Favor
+74,Male,Not Sure,Democrat,Good,Has Health Insurance,Favor
+38,Female,Not Sure,No Preference,Good,Has Health Insurance,Oppose
+63,Male,Conservative,Independent,Fair,Has Health Insurance,Oppose
+67,Female,Not Sure,No Preference,Excellent,Has Health Insurance,Oppose
+51,Female,Slightly Conservative,Democrat,Fair,Has Health Insurance,Favor
+53,Male,Not Sure,Democrat,Good,Has Health Insurance,Favor
+84,Male,Moderate,Democrat,Good,Has Health Insurance,Favor
+38,Female,Slightly Conservative,Democrat,Fair,Has Health Insurance,Favor
+42,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+45,Female,Slightly Liberal,Independent,Excellent,Has Health Insurance,Favor
+35,Female,Moderate,Independent,Good,Has Health Insurance,Favor
+41,Female,Slightly Conservative,Democrat,Poor,Has Health Insurance,Favor
+51,Female,Moderate,Democrat,Very Good,Does Not Have Health Insurance,Favor
+60,Female,Moderate,Republican,Good,Has Health Insurance,Oppose
+85,Male,Moderate,Independent,Good,Has Health Insurance,Favor
+56,Male,Conservative,Republican,Fair,Has Health Insurance,Oppose
+28,Male,Slightly Liberal,Democrat,Excellent,Has Health Insurance,Oppose
+56,Male,Moderate,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+52,Female,Moderate,Democrat,Fair,Does Not Have Health Insurance,Oppose
+79,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+48,Male,Slightly Liberal,Democrat,Good,Has Health Insurance,Neither Favor Nor Oppose
+62,Male,Moderate,Independent,Good,Has Health Insurance,Favor
+65,Female,Conservative,Republican,Fair,Has Health Insurance,Oppose
+52,Female,Moderate,Democrat,Good,Has Health Insurance,Favor
+48,Male,Conservative,Republican,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+87,Female,Not Sure,Democrat,Good,Has Health Insurance,Favor
+75,Male,Moderate,Independent,Good,Has Health Insurance,Oppose
+39,Female,Slightly Liberal,Independent,Excellent,Has Health Insurance,Favor
+22,Male,Not Sure,Republican,Excellent,Has Health Insurance,Favor
+29,Female,Moderate,Independent,Good,Has Health Insurance,Favor
+81,Male,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+26,Female,Not Sure,Independent,Good,Has Health Insurance,Oppose
+34,Male,Slightly Conservative,Democrat,Excellent,Has Health Insurance,Favor
+54,Female,Slightly Conservative,Independent,Very Good,Has Health Insurance,Oppose
+33,Male,Not Sure,Independent,Good,Does Not Have Health Insurance,Neither Favor Nor Oppose
+72,Female,Not Sure,Independent,Fair,Has Health Insurance,Neither Favor Nor Oppose
+70,Male,Conservative,Independent,Good,Does Not Have Health Insurance,Oppose
+68,Male,Moderate,Democrat,Excellent,Has Health Insurance,Favor
+53,Male,Slightly Liberal,Democrat,Very Good,Has Health Insurance,Favor
+35,Female,Not Sure,Democrat,Fair,Has Health Insurance,Neither Favor Nor Oppose
+57,Male,Not Sure,Democrat,Good,Has Health Insurance,Favor
+75,Male,Conservative,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+60,Male,Moderate,Republican,Excellent,Has Health Insurance,Oppose
+57,Female,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+48,Female,Conservative,Independent,Very Good,Has Health Insurance,Favor
+34,Female,Moderate,Independent,Fair,Has Health Insurance,Oppose
+87,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+66,Female,Moderate,Democrat,Poor,Does Not Have Health Insurance,Oppose
+36,Female,Moderate,Independent,Excellent,Has Health Insurance,Favor
+37,Male,Extremely Liberal,Other Party,Very Good,Has Health Insurance,Favor
+49,Male,Slightly Liberal,Democrat,Excellent,Does Not Have Health Insurance,Neither Favor Nor Oppose
+31,Female,Not Sure,Independent,Very Good,Has Health Insurance,Favor
+34,Male,Moderate,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+34,Female,Moderate,Other Party,Good,Has Health Insurance,Oppose
+54,Male,Slightly Liberal,Independent,Excellent,Has Health Insurance,Oppose
+35,Male,Not Sure,Republican,Very Good,Has Health Insurance,Favor
+74,Female,Slightly Conservative,Republican,Fair,Has Health Insurance,Oppose
+72,Male,Not Sure,Republican,Poor,Has Health Insurance,Oppose
+33,Male,Liberal,Independent,Excellent,Does Not Have Health Insurance,Favor
+60,Female,Slightly Liberal,Independent,Very Good,Has Health Insurance,Favor
+71,Female,Moderate,Independent,Very Good,Has Health Insurance,Oppose
+82,Female,Not Sure,No Preference,Good,Has Health Insurance,Neither Favor Nor Oppose
+35,Female,Moderate,Republican,Very Good,Has Health Insurance,Oppose
+59,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+80,Female,Liberal,Independent,Fair,Has Health Insurance,Neither Favor Nor Oppose
+52,Female,Slightly Conservative,Democrat,Fair,Has Health Insurance,Favor
+31,Female,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+43,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+51,Male,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+37,Female,Not Sure,Other Party,Good,Does Not Have Health Insurance,Neither Favor Nor Oppose
+31,Male,Not Sure,Independent,Good,Has Health Insurance,Oppose
+43,Female,Conservative,Democrat,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+54,Male,Not Sure,Independent,Very Good,Has Health Insurance,Oppose
+37,Female,Extremely Liberal,Democrat,Excellent,Has Health Insurance,Favor
+68,Female,Extremely Conservative,Republican,Excellent,Has Health Insurance,Oppose
+67,Male,Moderate,Independent,Good,Has Health Insurance,Favor
+50,Male,Moderate,Republican,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+64,Male,Moderate,Independent,Excellent,Has Health Insurance,Favor
+37,Male,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+50,Female,Moderate,Independent,Very Good,Has Health Insurance,Favor
+74,Male,Extremely Liberal,Independent,Poor,Has Health Insurance,Favor
+53,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+66,Male,Not Sure,Republican,Excellent,Has Health Insurance,Favor
+47,Male,Moderate,Independent,Excellent,Has Health Insurance,Oppose
+37,Male,Moderate,Independent,Fair,Has Health Insurance,Favor
+38,Male,Conservative,Other Party,Very Good,Does Not Have Health Insurance,Oppose
+30,Male,Slightly Conservative,Other Party,Good,Does Not Have Health Insurance,Neither Favor Nor Oppose
+68,Male,Not Sure,Democrat,Poor,Has Health Insurance,Oppose
+28,Female,Slightly Liberal,Independent,Excellent,Does Not Have Health Insurance,Favor
+31,Male,Moderate,Independent,Good,Has Health Insurance,Oppose
+71,Male,Not Sure,Republican,Good,Has Health Insurance,Favor
+30,Female,Moderate,Democrat,Very Good,Has Health Insurance,Oppose
+57,Female,Slightly Liberal,Independent,Very Good,Has Health Insurance,Favor
+30,Male,Slightly Liberal,Independent,Very Good,Has Health Insurance,Favor
+46,Female,Conservative,Republican,Good,Has Health Insurance,Oppose
+59,Female,Not Sure,Republican,Fair,Has Health Insurance,Favor
+68,Female,Conservative,Republican,Good,Has Health Insurance,Oppose
+57,Female,Conservative,Republican,Good,Has Health Insurance,Oppose
+67,Female,Not Sure,Democrat,Very Good,Has Health Insurance,Favor
+18,Female,Moderate,Democrat,Fair,Has Health Insurance,Favor
+18,Male,Moderate,Independent,Good,Does Not Have Health Insurance,Favor
+67,Male,Slightly Liberal,Democrat,Very Good,Has Health Insurance,Favor
+40,Female,Extremely Conservative,Democrat,Excellent,Does Not Have Health Insurance,Favor
+37,Male,Extremely Liberal,Democrat,Good,Has Health Insurance,Favor
+77,Male,Slightly Liberal,Democrat,Good,Has Health Insurance,Favor
+56,Female,Not Sure,,Excellent,Has Health Insurance,Favor
+,Female,Conservative,Independent,Good,Has Health Insurance,Oppose
+47,Female,Moderate,Independent,Good,Has Health Insurance,Favor
+75,Female,Liberal,Democrat,Very Good,Has Health Insurance,Oppose
+71,Male,Extremely Liberal,Democrat,Very Good,Has Health Insurance,Favor
+67,Female,Moderate,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+,Male,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+26,Male,Moderate,Independent,Excellent,Has Health Insurance,Oppose
+25,Female,Moderate,Republican,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+61,Male,Conservative,Independent,Very Good,Has Health Insurance,Oppose
+31,Female,Slightly Conservative,Independent,Excellent,Has Health Insurance,Favor
+27,Female,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+38,Female,Conservative,Independent,Good,Has Health Insurance,Favor
+39,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+74,Female,Conservative,Republican,Good,Has Health Insurance,Oppose
+63,Female,Moderate,Democrat,Poor,Has Health Insurance,Oppose
+18,Female,Conservative,Republican,Very Good,Has Health Insurance,Favor
+65,Male,Moderate,Independent,Good,Has Health Insurance,Oppose
+85,Male,Slightly Conservative,Independent,Fair,Has Health Insurance,Oppose
+53,Female,Not Sure,Independent,Good,Has Health Insurance,Favor
+66,Male,Slightly Conservative,Republican,Fair,Has Health Insurance,Oppose
+89,Female,Moderate,Democrat,Poor,Has Health Insurance,Favor
+55,Female,Slightly Conservative,Republican,Excellent,Has Health Insurance,Favor
+47,Female,Liberal,Independent,Good,Has Health Insurance,Favor
+66,Male,Not Sure,Democrat,Poor,Does Not Have Health Insurance,Favor
+66,Male,Not Sure,Democrat,Very Good,Has Health Insurance,Favor
+51,Female,Not Sure,Independent,Very Good,Has Health Insurance,Oppose
+37,Female,Not Sure,Independent,Good,Does Not Have Health Insurance,Oppose
+83,Female,Conservative,Republican,Good,Has Health Insurance,Oppose
+23,Male,Slightly Conservative,Independent,Very Good,Has Health Insurance,Favor
+22,Female,Not Sure,Republican,Very Good,Has Health Insurance,Oppose
+42,Female,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+27,Female,Not Sure,Democrat,Very Good,Has Health Insurance,Favor
+79,Female,Moderate,Democrat,Poor,Has Health Insurance,Favor
+30,Female,Extremely Liberal,Democrat,Good,Has Health Insurance,Favor
+55,Male,Slightly Conservative,Democrat,Good,Has Health Insurance,Oppose
+22,Female,Extremely Conservative,Democrat,Excellent,Does Not Have Health Insurance,Favor
+66,Female,Extremely Conservative,Democrat,Excellent,Has Health Insurance,Favor
+46,Male,Slightly Conservative,Independent,Good,Has Health Insurance,
+36,Male,Not Sure,Independent,Fair,Does Not Have Health Insurance,Oppose
+29,Male,Liberal,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+35,Male,Slightly Conservative,Republican,Excellent,Has Health Insurance,Oppose
+23,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+26,Female,Slightly Conservative,Republican,Fair,Does Not Have Health Insurance,Oppose
+51,Female,Moderate,Independent,Excellent,Has Health Insurance,Favor
+75,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+56,Female,Moderate,Republican,Very Good,Has Health Insurance,Favor
+67,Female,Slightly Liberal,Democrat,Very Good,Has Health Insurance,Favor
+37,Female,Not Sure,Independent,Fair,Does Not Have Health Insurance,Neither Favor Nor Oppose
+49,Male,Not Sure,Republican,Very Good,Has Health Insurance,Oppose
+61,Female,Extremely Conservative,Republican,Good,Has Health Insurance,Oppose
+75,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+82,Female,Liberal,,Good,Has Health Insurance,Favor
+25,Male,Moderate,Republican,Good,Has Health Insurance,Favor
+40,Female,Extremely Conservative,Democrat,Poor,Has Health Insurance,
+45,Female,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+74,Male,Moderate,Republican,Very Good,Has Health Insurance,Favor
+38,Female,Slightly Liberal,Independent,Good,Has Health Insurance,Oppose
+61,Female,Extremely Conservative,Republican,Very Good,Has Health Insurance,Oppose
+31,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+37,Male,Not Sure,Independent,Very Good,Has Health Insurance,Oppose
+62,Female,Moderate,Republican,Fair,Has Health Insurance,Oppose
+82,Female,Conservative,Republican,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+20,Male,Slightly Liberal,Democrat,Very Good,Has Health Insurance,Favor
+61,Female,Moderate,Other Party,Fair,Has Health Insurance,Neither Favor Nor Oppose
+56,Male,Not Sure,Republican,Good,Has Health Insurance,Oppose
+47,Male,Slightly Conservative,Democrat,Good,Has Health Insurance,Favor
+54,Male,Not Sure,Independent,Fair,Has Health Insurance,Oppose
+70,Female,Conservative,Independent,Very Good,Has Health Insurance,Oppose
+28,Female,Not Sure,Independent,Excellent,Does Not Have Health Insurance,Neither Favor Nor Oppose
+49,Female,Not Sure,Democrat,Fair,Has Health Insurance,Favor
+45,Female,Slightly Conservative,Independent,Very Good,Has Health Insurance,Oppose
+60,Male,Not Sure,Democrat,Good,Has Health Insurance,Favor
+74,Male,Slightly Conservative,Independent,Good,Has Health Insurance,Oppose
+33,Male,Moderate,Independent,Very Good,Has Health Insurance,Favor
+52,Male,Not Sure,Independent,Fair,Has Health Insurance,Neither Favor Nor Oppose
+31,Male,Not Sure,Independent,Poor,Does Not Have Health Insurance,Oppose
+70,Female,Slightly Liberal,Independent,Fair,Has Health Insurance,Favor
+26,Female,Not Sure,Other Party,Good,Has Health Insurance,Oppose
+57,Male,Conservative,No Preference,Good,Has Health Insurance,Oppose
+60,Female,Slightly Conservative,Republican,Good,Has Health Insurance,Oppose
+25,Male,Slightly Conservative,Independent,Poor,Has Health Insurance,Favor
+74,Male,Extremely Conservative,Republican,Fair,Has Health Insurance,Oppose
+42,Female,Moderate,Independent,Good,Does Not Have Health Insurance,Oppose
+46,Male,Moderate,Republican,Good,Has Health Insurance,Oppose
+50,Female,Moderate,Democrat,Excellent,Has Health Insurance,Favor
+59,Male,Conservative,Independent,Good,Has Health Insurance,Oppose
+56,Male,Extremely Conservative,Other Party,Very Good,Has Health Insurance,Oppose
+61,Male,Not Sure,No Preference,Good,Has Health Insurance,Oppose
+34,Female,Slightly Liberal,Democrat,Good,Has Health Insurance,Favor
+55,Male,Moderate,Independent,Good,Has Health Insurance,Oppose
+37,Male,Not Sure,Independent,Fair,Does Not Have Health Insurance,Neither Favor Nor Oppose
+20,Female,Not Sure,Republican,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+62,Male,Extremely Liberal,Democrat,Good,Has Health Insurance,Favor
+26,Male,Slightly Conservative,Independent,Excellent,Has Health Insurance,Oppose
+45,Female,Slightly Liberal,Democrat,Fair,Has Health Insurance,Neither Favor Nor Oppose
+50,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+21,Female,Not Sure,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+52,Male,Slightly Conservative,Republican,Good,Has Health Insurance,Favor
+72,Female,Slightly Conservative,Republican,Fair,Has Health Insurance,Oppose
+35,Male,Liberal,Independent,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+56,Male,Extremely Liberal,No Preference,Excellent,Has Health Insurance,Favor
+63,Male,Moderate,Democrat,Fair,Has Health Insurance,Favor
+85,Female,Extremely Liberal,Democrat,Excellent,Has Health Insurance,Favor
+33,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+26,Male,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+80,Female,Not Sure,Democrat,Very Good,Has Health Insurance,Favor
+56,Male,Moderate,Republican,Excellent,Has Health Insurance,Oppose
+68,Male,Conservative,Republican,Fair,Has Health Insurance,Oppose
+46,Female,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+42,Female,Slightly Liberal,Independent,Good,Has Health Insurance,Neither Favor Nor Oppose
+51,Male,Liberal,Democrat,Fair,Has Health Insurance,Favor
+20,Male,Not Sure,Republican,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+36,Male,Slightly Conservative,Independent,Very Good,Has Health Insurance,Oppose
+28,Female,Not Sure,Independent,Good,Does Not Have Health Insurance,Oppose
+47,Female,Not Sure,Independent,Fair,Has Health Insurance,Oppose
+47,Male,Slightly Liberal,Independent,Excellent,Has Health Insurance,Favor
+37,Male,Moderate,Independent,Very Good,Has Health Insurance,Oppose
+51,Male,Slightly Conservative,Republican,Very Good,Does Not Have Health Insurance,Oppose
+68,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+37,Female,Slightly Conservative,Republican,Good,Has Health Insurance,Oppose
+53,Female,Extremely Conservative,Democrat,Excellent,Has Health Insurance,Oppose
+32,Female,Slightly Liberal,Democrat,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+53,Male,,Independent,Fair,Does Not Have Health Insurance,Favor
+67,Male,Moderate,Democrat,Good,Has Health Insurance,Favor
+65,Female,Extremely Liberal,Independent,Very Good,Has Health Insurance,Favor
+,Male,Conservative,Independent,Good,Has Health Insurance,Oppose
+83,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+53,Female,Not Sure,Democrat,Excellent,Has Health Insurance,Favor
+41,Female,Not Sure,Independent,Fair,Has Health Insurance,Neither Favor Nor Oppose
+36,Female,Not Sure,Independent,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+23,Female,Not Sure,No Preference,Fair,Has Health Insurance,Favor
+55,Male,Conservative,Other Party,Fair,Has Health Insurance,Favor
+54,Female,Moderate,Democrat,Excellent,Does Not Have Health Insurance,Favor
+47,Male,Moderate,Independent,Very Good,Has Health Insurance,Favor
+80,Male,Moderate,Democrat,Fair,Has Health Insurance,Favor
+59,Female,Not Sure,Republican,Fair,Has Health Insurance,Neither Favor Nor Oppose
+23,Male,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+63,Male,Conservative,Republican,Excellent,Has Health Insurance,Favor
+59,Male,Conservative,Democrat,Fair,Has Health Insurance,Oppose
+82,Female,Moderate,Republican,Poor,Has Health Insurance,Neither Favor Nor Oppose
+49,Male,Slightly Conservative,Independent,Poor,Has Health Insurance,Oppose
+25,Female,Not Sure,Republican,Fair,Does Not Have Health Insurance,Neither Favor Nor Oppose
+76,Female,Not Sure,Democrat,Good,Has Health Insurance,Favor
+33,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+81,Male,Conservative,Republican,Very Good,Has Health Insurance,Favor
+62,Male,Slightly Conservative,Independent,Good,Has Health Insurance,Neither Favor Nor Oppose
+77,Female,Not Sure,Independent,Good,Has Health Insurance,Favor
+64,Male,Liberal,Democrat,Fair,Has Health Insurance,Favor
+30,Female,Slightly Conservative,Republican,Very Good,Has Health Insurance,Oppose
+62,Female,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+38,Female,Slightly Conservative,Democrat,Excellent,Has Health Insurance,Favor
+45,Female,Moderate,Independent,Excellent,Has Health Insurance,Favor
+76,Female,Moderate,Democrat,Fair,Has Health Insurance,Favor
+31,Female,Not Sure,Independent,Very Good,Has Health Insurance,Oppose
+42,Female,Liberal,Democrat,Good,Has Health Insurance,Neither Favor Nor Oppose
+23,Male,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+22,Female,Moderate,Democrat,Good,Has Health Insurance,Favor
+21,Male,Moderate,Other Party,Fair,Has Health Insurance,Neither Favor Nor Oppose
+44,Male,Liberal,Independent,Very Good,Has Health Insurance,Favor
+51,Female,Slightly Conservative,Republican,Very Good,Has Health Insurance,Oppose
+59,Female,Liberal,Independent,Very Good,Has Health Insurance,Favor
+81,Female,Moderate,No Preference,Good,Has Health Insurance,Favor
+77,Male,Moderate,Republican,Very Good,Has Health Insurance,Favor
+68,Female,Not Sure,Democrat,Very Good,Has Health Insurance,Favor
+32,Male,Not Sure,No Preference,Fair,Has Health Insurance,Favor
+65,Male,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+49,Female,Conservative,No Preference,Very Good,Has Health Insurance,Favor
+85,Male,Not Sure,Independent,Fair,Has Health Insurance,Oppose
+56,Male,Conservative,Republican,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+58,Male,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+50,Female,Not Sure,Democrat,Good,Has Health Insurance,Favor
+37,Male,Liberal,Democrat,Fair,Has Health Insurance,Oppose
+69,Female,Liberal,Democrat,Good,Has Health Insurance,Favor
+66,Male,Not Sure,Democrat,Good,Has Health Insurance,Favor
+53,Male,Slightly Conservative,Republican,Very Good,Has Health Insurance,Favor
+46,Female,Slightly Conservative,Republican,Very Good,Has Health Insurance,Oppose
+53,Male,Moderate,Republican,Good,Has Health Insurance,Favor
+46,Female,Moderate,,Good,Has Health Insurance,Oppose
+37,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+18,Male,Not Sure,Independent,Fair,Has Health Insurance,Favor
+67,Female,Not Sure,Democrat,Fair,Has Health Insurance,Favor
+28,Female,Slightly Liberal,Democrat,Very Good,Has Health Insurance,Oppose
+65,Female,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+45,Male,Moderate,Democrat,Good,Has Health Insurance,Favor
+18,Male,Slightly Conservative,Republican,Very Good,Has Health Insurance,Oppose
+33,Male,Slightly Conservative,Republican,Excellent,Has Health Insurance,Oppose
+24,Male,Slightly Conservative,Republican,Very Good,Has Health Insurance,Favor
+29,Male,Extremely Conservative,Other Party,Excellent,Has Health Insurance,Oppose
+49,Male,Liberal,Democrat,Good,Has Health Insurance,Favor
+82,Female,Not Sure,Democrat,Poor,Has Health Insurance,Neither Favor Nor Oppose
+32,Female,Conservative,Independent,Good,Does Not Have Health Insurance,Oppose
+47,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+53,Female,Not Sure,Independent,Very Good,Has Health Insurance,Oppose
+19,Female,Not Sure,Independent,Good,Has Health Insurance,Favor
+47,Female,Not Sure,Democrat,Excellent,Has Health Insurance,Favor
+71,Female,Extremely Liberal,Democrat,Fair,Has Health Insurance,Neither Favor Nor Oppose
+57,Male,Not Sure,No Preference,Fair,Has Health Insurance,Favor
+64,Male,Conservative,,Good,Has Health Insurance,Oppose
+59,Female,Slightly Liberal,Independent,Good,Has Health Insurance,Favor
+71,Male,Moderate,Independent,Good,Has Health Insurance,Oppose
+48,Female,Not Sure,,Fair,Has Health Insurance,Neither Favor Nor Oppose
+47,Female,,No Preference,Poor,Has Health Insurance,Neither Favor Nor Oppose
+,Female,Extremely Liberal,Democrat,,,Neither Favor Nor Oppose
+61,Male,Not Sure,Independent,Very Good,Has Health Insurance,Oppose
+61,Female,Moderate,Democrat,Good,Has Health Insurance,Oppose
+58,Female,Liberal,Independent,Poor,Has Health Insurance,Oppose
+36,Male,Moderate,Independent,Fair,Has Health Insurance,Oppose
+19,Male,Moderate,Independent,Excellent,Does Not Have Health Insurance,Favor
+47,Female,Extremely Conservative,Republican,Very Good,Has Health Insurance,Oppose
+31,Female,Extremely Conservative,Republican,Excellent,Has Health Insurance,Oppose
+72,Female,Not Sure,Democrat,Good,Has Health Insurance,Favor
+54,Female,Moderate,Democrat,Good,Does Not Have Health Insurance,Neither Favor Nor Oppose
+70,Male,Not Sure,No Preference,Poor,Has Health Insurance,Oppose
+21,Female,Not Sure,,Good,Has Health Insurance,Favor
+,Female,,Independent,Fair,Has Health Insurance,Oppose
+24,Female,Not Sure,Republican,Fair,Does Not Have Health Insurance,Oppose
+90,Female,Moderate,Republican,Very Good,Has Health Insurance,Oppose
+38,Female,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+47,Female,Slightly Conservative,Other Party,Fair,Has Health Insurance,Oppose
+43,Female,Not Sure,Independent,Good,Has Health Insurance,Favor
+43,Female,Not Sure,Independent,Fair,Does Not Have Health Insurance,Favor
+20,Male,Slightly Liberal,Independent,Very Good,Has Health Insurance,Favor
+24,Male,Slightly Liberal,Independent,Excellent,Has Health Insurance,Favor
+80,Female,Liberal,Democrat,Excellent,Has Health Insurance,Favor
+64,Male,Conservative,Republican,Good,Has Health Insurance,Neither Favor Nor Oppose
+68,Female,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+35,Male,Slightly Conservative,Independent,Good,Has Health Insurance,Neither Favor Nor Oppose
+46,Male,Slightly Liberal,Democrat,Good,Has Health Insurance,Favor
+33,Male,Not Sure,Independent,Good,Does Not Have Health Insurance,Favor
+73,Male,Conservative,Republican,Fair,Has Health Insurance,Oppose
+70,Male,Conservative,Independent,Very Good,Has Health Insurance,Favor
+53,Female,Not Sure,Democrat,Very Good,Has Health Insurance,Favor
+37,Female,Not Sure,Democrat,Excellent,Has Health Insurance,Favor
+79,Female,Not Sure,Democrat,Fair,Has Health Insurance,Neither Favor Nor Oppose
+42,Female,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+60,Male,Moderate,Independent,Good,Has Health Insurance,Oppose
+76,Male,Moderate,Democrat,Fair,Has Health Insurance,Oppose
+70,Male,Not Sure,Democrat,Fair,Has Health Insurance,Favor
+66,Female,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+72,Female,Slightly Conservative,Independent,Excellent,Has Health Insurance,Favor
+50,Female,Not Sure,Republican,Excellent,Has Health Insurance,Favor
+34,Female,Not Sure,Independent,Fair,Has Health Insurance,Favor
+46,Female,Conservative,Republican,Fair,Has Health Insurance,Oppose
+68,Male,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+25,Female,Liberal,Democrat,Good,Has Health Insurance,Favor
+71,Male,Slightly Conservative,Independent,Fair,Has Health Insurance,Favor
+37,Female,Moderate,Democrat,Very Good,Has Health Insurance,Oppose
+50,Male,Not Sure,Independent,Fair,Has Health Insurance,Oppose
+37,Male,Not Sure,Independent,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+41,Female,Slightly Liberal,Democrat,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+20,Female,Not Sure,Democrat,Fair,Has Health Insurance,Favor
+32,Male,Not Sure,No Preference,Excellent,Has Health Insurance,Oppose
+59,Female,Slightly Conservative,Republican,Good,Has Health Insurance,Oppose
+23,Male,Extremely Liberal,Independent,Very Good,Has Health Insurance,Favor
+62,Male,Moderate,Independent,Very Good,Has Health Insurance,Oppose
+41,Female,Not Sure,Democrat,Excellent,Has Health Insurance,Favor
+74,Female,Extremely Liberal,Other Party,Excellent,Has Health Insurance,Favor
+,Female,Extremely Conservative,Independent,Fair,Does Not Have Health Insurance,Oppose
+40,Male,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+,Female,Slightly Conservative,Independent,Good,Has Health Insurance,Oppose
+30,Female,Extremely Conservative,Republican,Very Good,Has Health Insurance,Oppose
+31,Male,Slightly Conservative,Republican,Excellent,Has Health Insurance,Oppose
+34,Male,Moderate,Independent,Good,Has Health Insurance,Oppose
+58,Male,Moderate,Republican,Good,Has Health Insurance,Favor
+68,Female,Liberal,Democrat,Fair,Has Health Insurance,Favor
+32,Male,Slightly Conservative,Republican,Fair,Has Health Insurance,Oppose
+,Male,Not Sure,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+78,Female,Slightly Conservative,Democrat,Good,Has Health Insurance,Favor
+45,Male,Moderate,Independent,Very Good,Has Health Insurance,Favor
+46,Female,Moderate,No Preference,Very Good,Has Health Insurance,Favor
+44,Female,Moderate,Democrat,Good,Has Health Insurance,Oppose
+25,Male,Slightly Liberal,Independent,Very Good,Has Health Insurance,Favor
+34,Female,Extremely Liberal,Independent,Fair,Does Not Have Health Insurance,Oppose
+67,Male,Extremely Liberal,Republican,Very Good,Has Health Insurance,Oppose
+59,Female,Not Sure,Democrat,Poor,Has Health Insurance,Favor
+28,Male,Extremely Liberal,Independent,Very Good,Has Health Insurance,Favor
+55,Female,Not Sure,,Poor,Has Health Insurance,Neither Favor Nor Oppose
+33,Male,Slightly Liberal,Republican,Excellent,Has Health Insurance,Oppose
+44,Male,Slightly Conservative,Republican,Good,Does Not Have Health Insurance,Oppose
+,Female,Slightly Liberal,Independent,Excellent,Has Health Insurance,Favor
+37,Male,Slightly Conservative,No Preference,Good,Has Health Insurance,Oppose
+68,Male,Extremely Conservative,Republican,Good,Has Health Insurance,Oppose
+74,Female,Not Sure,Republican,Good,Has Health Insurance,Neither Favor Nor Oppose
+36,Female,Slightly Liberal,Democrat,Excellent,Has Health Insurance,Favor
+52,Male,Moderate,Independent,Excellent,Does Not Have Health Insurance,Neither Favor Nor Oppose
+24,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+33,Female,Slightly Conservative,Independent,Poor,Has Health Insurance,Favor
+62,Male,Not Sure,Democrat,Fair,Has Health Insurance,Favor
+73,Male,Moderate,Democrat,Good,Has Health Insurance,Neither Favor Nor Oppose
+18,Female,Slightly Liberal,Democrat,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+53,Female,Liberal,Democrat,Poor,Has Health Insurance,Favor
+33,Male,Extremely Conservative,Other Party,Good,Does Not Have Health Insurance,Oppose
+61,Male,Conservative,Republican,Good,Has Health Insurance,Neither Favor Nor Oppose
+79,Male,Not Sure,Independent,Good,Has Health Insurance,Favor
+68,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+29,Female,Moderate,Republican,Good,Has Health Insurance,Oppose
+80,Female,Moderate,Independent,Good,Has Health Insurance,Oppose
+72,Female,Extremely Conservative,Republican,Very Good,Has Health Insurance,Oppose
+40,Female,Not Sure,Democrat,Good,Has Health Insurance,Oppose
+25,Male,Not Sure,Independent,Excellent,Does Not Have Health Insurance,Neither Favor Nor Oppose
+46,Female,Not Sure,,Poor,Does Not Have Health Insurance,Favor
+60,Male,Conservative,Democrat,Good,Has Health Insurance,Favor
+49,Female,Moderate,Republican,Good,Has Health Insurance,Oppose
+33,Female,Moderate,Independent,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+38,Female,Not Sure,Other Party,Fair,Has Health Insurance,Oppose
+89,Female,Moderate,Independent,Fair,Has Health Insurance,Neither Favor Nor Oppose
+69,Female,Liberal,Independent,Good,Has Health Insurance,Favor
+28,Male,Slightly Liberal,Democrat,Very Good,Has Health Insurance,Favor
+52,Male,Extremely Conservative,Republican,Fair,Has Health Insurance,Oppose
+45,Male,Slightly Conservative,Republican,Very Good,Has Health Insurance,Oppose
+19,Male,Not Sure,Independent,Excellent,Has Health Insurance,Favor
+44,Male,Slightly Conservative,Republican,Excellent,Has Health Insurance,Oppose
+32,Male,Not Sure,Republican,Very Good,Has Health Insurance,Oppose
+80,Male,Not Sure,Republican,Poor,Has Health Insurance,Oppose
+56,Female,Not Sure,Other Party,Poor,Has Health Insurance,Favor
+36,Female,Liberal,Democrat,Fair,Has Health Insurance,Favor
+18,Male,Moderate,Democrat,Very Good,Has Health Insurance,Favor
+71,Female,Conservative,Republican,Very Good,Has Health Insurance,Oppose
+35,Female,Slightly Liberal,Independent,Good,Has Health Insurance,Favor
+29,Male,Slightly Liberal,Other Party,Excellent,Has Health Insurance,Oppose
+40,Male,Conservative,Democrat,Excellent,Has Health Insurance,Favor
+56,Male,Moderate,Republican,Very Good,Has Health Insurance,Favor
+18,Male,Conservative,Republican,Very Good,Has Health Insurance,Favor
+22,Male,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+66,Female,Conservative,Independent,Very Good,Has Health Insurance,Oppose
+70,Female,Extremely Conservative,Independent,Very Good,Has Health Insurance,Oppose
+26,Female,Liberal,Democrat,Fair,Has Health Insurance,Neither Favor Nor Oppose
+55,Female,Not Sure,Democrat,Excellent,Has Health Insurance,Oppose
+37,Female,Not Sure,Independent,Excellent,Has Health Insurance,Favor
+54,Female,Conservative,Republican,Very Good,Does Not Have Health Insurance,Oppose
+64,Female,Conservative,Republican,Fair,Has Health Insurance,Oppose
+90,Female,Slightly Conservative,Republican,Very Good,Has Health Insurance,Oppose
+20,Male,Not Sure,Democrat,Good,Does Not Have Health Insurance,Favor
+49,Male,Liberal,Democrat,Fair,Has Health Insurance,Favor
+55,Male,Not Sure,Republican,Fair,Has Health Insurance,Favor
+20,Male,Moderate,Independent,Very Good,Has Health Insurance,Favor
+67,Male,Conservative,Independent,Very Good,Has Health Insurance,Oppose
+29,Male,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+55,Female,Not Sure,Democrat,Good,Has Health Insurance,Favor
+54,Male,Slightly Conservative,Republican,Excellent,Has Health Insurance,Oppose
+54,Female,Slightly Conservative,Independent,Very Good,Has Health Insurance,Favor
+38,Male,Not Sure,Independent,Very Good,Has Health Insurance,Favor
+24,Male,Slightly Conservative,Republican,Excellent,Has Health Insurance,Oppose
+53,Male,Moderate,Independent,Very Good,Has Health Insurance,Favor
+64,Female,Slightly Conservative,Republican,Very Good,Has Health Insurance,Oppose
+42,Male,Conservative,Independent,Good,Does Not Have Health Insurance,Oppose
+24,Male,Slightly Conservative,Independent,Good,Does Not Have Health Insurance,Neither Favor Nor Oppose
+68,Female,Slightly Conservative,Independent,Good,Has Health Insurance,Favor
+45,Male,Liberal,Independent,Excellent,Has Health Insurance,Favor
+34,Female,Moderate,Republican,Very Good,Has Health Insurance,Oppose
+37,Female,Not Sure,Independent,Fair,Does Not Have Health Insurance,Favor
+72,Female,Moderate,Democrat,Very Good,Has Health Insurance,Favor
+71,Female,Liberal,Democrat,Fair,Has Health Insurance,Favor
+75,Male,Extremely Conservative,Other Party,Good,Has Health Insurance,Oppose
+23,Male,Moderate,No Preference,Good,Has Health Insurance,Favor
+53,Male,Slightly Conservative,Other Party,Good,Has Health Insurance,Oppose
+56,Female,Liberal,Democrat,Good,Has Health Insurance,Oppose
+21,Female,Liberal,Democrat,Fair,Has Health Insurance,Favor
+53,Female,Slightly Conservative,Independent,Very Good,Has Health Insurance,Favor
+46,Male,Slightly Conservative,Independent,Fair,Has Health Insurance,Neither Favor Nor Oppose
+57,Female,Slightly Liberal,Democrat,Good,Has Health Insurance,Favor
+24,Female,Conservative,Republican,Excellent,Has Health Insurance,Oppose
+85,Male,Not Sure,Democrat,Good,Has Health Insurance,Favor
+56,Female,Not Sure,Republican,Good,Has Health Insurance,Oppose
+38,Male,Slightly Conservative,Republican,Good,Has Health Insurance,Oppose
+38,Female,Moderate,Democrat,Very Good,Does Not Have Health Insurance,Oppose
+30,Female,Not Sure,Independent,Very Good,Has Health Insurance,Oppose
+58,Female,Not Sure,No Preference,Fair,Has Health Insurance,Oppose
+41,Female,Extremely Liberal,Democrat,Very Good,Has Health Insurance,Favor
+50,Male,Not Sure,Democrat,Fair,Has Health Insurance,Favor
+31,Female,Slightly Liberal,Independent,Fair,Has Health Insurance,Oppose
+44,Female,Liberal,Democrat,Excellent,Does Not Have Health Insurance,Favor
+27,Female,Liberal,Democrat,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+41,Female,Liberal,Independent,Very Good,Has Health Insurance,Favor
+50,Female,Not Sure,Democrat,Excellent,Has Health Insurance,Favor
+68,Male,Moderate,Independent,Very Good,Has Health Insurance,Oppose
+71,Male,Conservative,Independent,Very Good,Has Health Insurance,Oppose
+67,Female,Not Sure,Independent,Very Good,Has Health Insurance,Oppose
+25,Female,Moderate,Independent,Good,Has Health Insurance,Oppose
+38,Female,Slightly Liberal,Independent,Good,Has Health Insurance,Favor
+81,Male,Liberal,Democrat,Very Good,Has Health Insurance,Favor
+64,Male,Liberal,Democrat,Good,Has Health Insurance,Oppose
+70,Male,Slightly Liberal,,Good,Has Health Insurance,Neither Favor Nor Oppose
+68,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+29,Female,Not Sure,Democrat,Fair,Has Health Insurance,Favor
+59,Female,Extremely Liberal,Independent,Excellent,Has Health Insurance,Neither Favor Nor Oppose
+25,Male,Not Sure,Republican,Very Good,Has Health Insurance,Oppose
+34,Male,Slightly Conservative,Republican,Good,Has Health Insurance,Favor
+52,Female,Extremely Liberal,Democrat,Fair,Has Health Insurance,Favor
+48,Male,Slightly Conservative,Democrat,Poor,Has Health Insurance,Oppose
+28,Male,Slightly Conservative,Republican,Excellent,Has Health Insurance,Oppose
+37,Male,Extremely Liberal,Democrat,Very Good,Has Health Insurance,Favor
+50,Female,Slightly Liberal,Republican,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+90,Female,Not Sure,Republican,Good,Has Health Insurance,Oppose
+76,Female,Moderate,Independent,Very Good,Has Health Insurance,Neither Favor Nor Oppose
+36,Female,Slightly Conservative,Republican,Fair,Has Health Insurance,Oppose
+19,Female,Conservative,Independent,Excellent,Has Health Insurance,Oppose
+61,Female,Conservative,Republican,Very Good,Has Health Insurance,Favor
+52,Female,Moderate,Democrat,Good,Has Health Insurance,Favor
+41,Male,Not Sure,Independent,Excellent,Has Health Insurance,Favor
+28,Male,Conservative,Republican,Good,Has Health Insurance,Oppose
+66,Female,Liberal,Democrat,Very Good,Has Health Insurance,Favor

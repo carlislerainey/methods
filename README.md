@@ -13,7 +13,7 @@ This is a set of notes introducing political science research methods.
      - [x] initiate a .Rmd to describe the data sets: `data/data-sources.Rmd`
      - [x] create a file that re-does all cleaning and compressing: `data/R/clean-compress-all.R`
      - [ ] add quantitative state government ideology variable to data set
-   - [ ] add `anes` data set
+   - [x] add `anes` data set
 
 # Outline
   

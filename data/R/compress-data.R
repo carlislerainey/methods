@@ -17,6 +17,8 @@ files_df <- data_frame(file = list.files(path = "data", pattern = "\\.")) %>%
            into = c("data_set", "file_type"), 
            sep = "\\.", 
            remove = FALSE) %>%
+  filter(file_type != "Rmd") %>%
+  filter(file_type != "pdf") %>%
   glimpse() 
 
 # compress data (all file types)

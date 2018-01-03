@@ -12,7 +12,22 @@ library(tidyverse)
 library(magrittr)
 ```
 
-- `state-governments.csv`
+- `anes`
+    - url: http://www.electionstudies.org/studypages/download/datacenter_all_datasets.php
+    - accessed: 2018-01-02.
+    - raw filename: `raw-data/anes_timeseries_2016.dta`.
+    - raw codebooks: `raw-data/codebooks/anes_timeseries_2016_userguidecodebook.pdf` and `raw-data/codebooks/anes_timeseries_2016_varlist.pdf`.
+
+```{r message=FALSE, warning=FALSE}
+# load data
+anes_df <- read_rds("anes.rds")
+
+# quick look
+glimpse(anes_df)
+```
+
+
+- `state-governments`
     - citation: Klarner, Carl, 2013, "State Partisan Balance Data, 1937 - 2011", hdl:1902.1/20403, Harvard Dataverse, V1. 
     - accessed: 2018-01-02. 
     - raw filename: `raw-data/Partisan_Balance_For_Use2011_06_09b.xlsx`.
@@ -20,10 +35,6 @@ library(magrittr)
 
 
 ```{r message=FALSE, warning=FALSE}
-# load packages
-library(tidyverse)
-library(magrittr)
-
 # load data
 state_governments_df <- read_rds("state-governments.rds")
 
