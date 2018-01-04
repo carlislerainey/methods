@@ -26,6 +26,21 @@ anes_df <- read_rds("anes.rds")
 glimpse(anes_df)
 ```
 
+- `parties`
+    - citation: William Clark; Matt Golder, 2007, "Replication data for: Rehabilitating Duverger's Theory: Testing the Mechanical and Strategic Modifying Effects of Electoral Laws", hdl:1902.1/10477, Harvard Dataverse, V1, UNF:3:9vZjXJDKPmggOHufBr6UKw==.
+    - accessed: 2018-01-04
+    - raw filename: `raw-data/Legislative_new.dta`.
+    - raw codebook: see `.do` file `raw-data/codebooks/Electoral1_cps2.do`.
+    - codebook: `codebooks/parties-codebook.html` and `codebooks/parties-codebook.pdf`.
+    - example: `examples/example-parties.R` and `examples/example-parties.html`. 
+    
+```{r message=FALSE, warning=FALSE}
+# load data
+parties_df <- read_rds("parties.rds")
+
+# quick look
+glimpse(parties_df)
+```
 
 - `state-governments`
     - citation: Klarner, Carl, 2013, "State Partisan Balance Data, 1937 - 2011", hdl:1902.1/20403, Harvard Dataverse, V1. 

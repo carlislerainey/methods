@@ -1,0 +1,128 @@
+---
+title: 'Codebook: `parties` '
+template: default
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r global_options, include=FALSE}
+wd <- normalizePath("../../")
+wd
+knitr::opts_knit$set(fig.path='fig/',
+               echo=FALSE, warning=FALSE, message=FALSE,
+               root.dir=wd)
+```
+
+This data set is a cleaned version of the data from Clark and Golder's (2006) paper "Rehabilitating Duverger's Theory" [[link](http://mattgolder.com/files/research/cps2.pdf)]. I obatined their replication data from the file `Legislative_new.tab` [[link](https://dataverse.harvard.edu/file.xhtml?fileId=212286&version=RELEASED&version=.0)] posted to Matt Golder's Dataverse [[link](http://hdl.handle.net/1902.1/10477)].
+
+The following versions are available:
+
+```{r, echo=FALSE}
+list.files(path = "data/", pattern = "parties.")
+```
+
+
+The data set is at the **election level**, so that each row of the data set represents one election.
+
+# Load Data
+
+```{r, message=FALSE, warning=FALSE}
+# load packages
+library(tidyverse)
+library(rio)
+
+# load data
+parties_df <- import("data/parties.rds")
+
+# quick look at data
+glimpse(parties_df)
+```
+
+# Variable Descriptions
+
+## `country`: Country Name
+
+- Coding: The name of the country that held the election.
+- Type: character
+
+````{r}
+# sort and print country names
+sort(unique(parties_df$country))
+```
+
+## `year`: Year
+
+- Coding: The year of the election.
+- Type: integer
+
+````{r}
+# calculate observations per year
+## group by year
+grouped_df <- group_by(parties_df, year)
+## calcualte obs_per_year
+sum_df <- summarize(grouped_df, obs_per_year = n())
+
+# plot observations per year
+ggplot(sum_df, aes(x = year, y = obs_per_year)) + 
+  geom_line()
+```
+
+## `average_magnitude`: Average District Magnitude
+
+- Coding: The average (or mean) of the district magnitude (the number of seats available in the district) across all the districts in the country. For the U.S. House of Representatives, this would be one, because we have single-member districts (i.e., magnitude of one). In Israel, the average magnitude is 120, because they have a single national district with 120 members.
+- Type: double
+
+```{r}
+# histogram
+ggplot(parties_df, aes(x = average_magnitude)) + 
+  geom_histogram()
+```
+
+## `enep`: The Effective Number of **Electoral** Parties
+
+- Coding: Calculated as $ENEP_j = \dfrac{1}{\sum_{i = 1}^n v_{ij}^2}$, where $ENEP_j$ represents the effective number of electoral parties in election $j$ and $v_{ij}$ represents the **vote share** (as a proportion) for party $i$ in election $j$. For the details of this measure, see Clark and Golder (2006) or Clark, Golder, and Golder (ctk), chapter ctk. 
+- Type: double
+
+```{r}
+# histogram
+ggplot(parties_df, aes(x = enep)) + 
+  geom_histogram()
+```
+
+## `enlp`: The Effective Number of **Legislative** Parties
+
+- Coding: Calculated as $ENLP_j = \dfrac{1}{\sum_{i = 1}^n s_{ij}^2}$, where $ENLP_j$ represents the effective number of legislative parties in election $j$ and $v_{ij}$ represents the **seat share** (as a proportion) for party $i$ in election $j$. For the details of this measure, see Clark and Golder (2006) or Clark, Golder, and Golder (ctk), chapter ctk. 
+- Type: double
+
+```{r}
+# histogram
+ggplot(parties_df, aes(x = enlp)) + 
+  geom_histogram()
+```
+
+## `eneg`: The Effective Number of **Ethnic Groups**
+
+- Coding: Calculated as $ENEG_j = \dfrac{1}{\sum_{i = 1}^n p_{ij}^2}$, where $ENEG_j$ represents the effective number of ethnic groups in the country when election $j$ occurred and $p_{ij}$ represents the proportion of the population falling into ethnic group $i$ when election $j$ occurred. For the details of this measure, see Clark and Golder (2006) or Clark, Golder, and Golder (ctk), chapter ctk. 
+- Type: double
+
+```{r}
+# histogram
+ggplot(parties_df, aes(x = enlp)) + 
+  geom_histogram()
+```
+
+## `electoral_system`: The Type of Electoral System
+
+- Source: This varaible is created from `average_magnitude`.
+- Coding:
+    - `"Single-Member Distict"`: when `average_magnitude` = 1.
+    - `"Small-Magnitude PR"`: when 1 < `average_magnitude` $\leq$ 7.
+    - `"Large-Magnitude PR"`: when `average_magnitude` > 7.
+- Type: factor
+
+```{r}
+# bar plot
+ggplot(parties_df, aes(x = electoral_system)) + 
+  geom_bar()
+```
