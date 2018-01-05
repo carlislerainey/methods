@@ -13,6 +13,12 @@ rmarkdown::render("data/codebooks/parties-codebook.Rmd",
                   output_format = "all")
 rmarkdown::render("data/examples/example-parties.R")
 
+## social-pressure
+source("data/R/clean-social-pressure.R")
+rmarkdown::render("data/codebooks/social-pressure-codebook.Rmd", 
+                  output_format = "all")
+rmarkdown::render("data/examples/example-social-pressure.R")
+
 ## state governments
 source("data/R/clean-state-governments.R")
 

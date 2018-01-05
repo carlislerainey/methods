@@ -12,6 +12,7 @@ This is a set of notes introducing political science research methods.
    - [ ] add exercises
      - [x] add exercise for `state-governments` data set
      - [ ] add exercise for `anes` data set
+     - [ ] add exercise for `social-pressure` data set
      - [ ] improve data sets and tables with kableExtra
      (https://haozhu233.github.io/kableExtra/awesome_table_in_pdf.pdf)
    - [ ] develop in-class example
@@ -28,6 +29,11 @@ This is a set of notes introducing political science research methods.
      - [ ] data set
      - [ ] codebook
      - [ ] example
+   - [x] add `social-pressure`
+     - [x] data set
+     - [x] codebook
+     - [x] example
+    
 
 # Outline
   

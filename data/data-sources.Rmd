@@ -42,6 +42,10 @@ parties_df <- read_rds("parties.rds")
 glimpse(parties_df)
 ```
 
+- `social-pressure`
+    - raw data: `raw-data/GerberGreenLarimer_APSR_2008_social_pressure.csv`.
+    - link: https://isps.yale.edu/research/data/d001.
+
 - `state-governments`
     - citation: Klarner, Carl, 2013, "State Partisan Balance Data, 1937 - 2011", hdl:1902.1/20403, Harvard Dataverse, V1. 
     - accessed: 2018-01-02. 

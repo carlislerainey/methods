@@ -1,0 +1,57 @@
+---
+title: 'Codebook: `social-pressure` '
+template: default
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r global_options, include=FALSE}
+wd <- normalizePath("../../")
+wd
+knitr::opts_knit$set(fig.path='fig/',
+               echo=FALSE, warning=FALSE, message=FALSE,
+               root.dir=wd)
+```
+
+This data set is a cleaned version of the data from Gerber, Green, and Larimer's (2008) paper "Social Pressure and Voter Turnout" [[link](https://isps.yale.edu/sites/default/files/publication/2012/12/ISPS08-001.pdff)]. I obatined their replication data from the file `GerberGreenLarimer_APSR_2008_social_pressure.csv` [[link](https://isps.yale.edu/research/data/d001)] (see Excel.csv).
+
+The following versions are available:
+
+```{r, echo=FALSE}
+list.files(path = "data/", pattern = "social-pressure.")
+```
+
+
+The data set is at the **condition level**, so that each row of the data set represents one of the five experimental conditions.
+
+# Load Data
+
+```{r, message=FALSE, warning=FALSE}
+# load packages
+library(tidyverse)
+library(rio)
+
+# load data
+sp_df <- import("data/social-pressure.rds")
+
+# print entire data set
+sp_df
+```
+
+# Variable Descriptions
+
+## `condition`: Country Name
+
+- Coding: The experimental condition.
+- Type: factor
+
+## `number_in_condition`: Number of Subjects in Each Condition
+
+- Coding: The total number of experimental subjects in each condition.
+- Type: integer
+
+## `number_that_voted`: Number of Subjects that Voted
+
+- Coding: The total number of experimental subjects in each condition *that voted*.
+- Type: integer

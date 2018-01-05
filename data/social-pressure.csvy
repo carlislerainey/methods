@@ -1,0 +1,25 @@
+#---
+#class:
+#- tbl_df
+#- tbl
+#- data.frame
+#fields:
+#- name: condition
+#  class: factor
+#  levels:
+#  - Control
+#  - Civic Duty
+#  - Hawthorne
+#  - Self
+#  - Neighbors
+#- name: number_in_condition
+#  class: integer
+#- name: number_that_voted
+#  class: integer
+#--- 
+"condition","number_in_condition","number_that_voted"
+"1","Control",191243,56730
+"2","Civic Duty",38218,12021
+"3","Hawthorne",38204,12316
+"4","Self",38218,13191
+"5","Neighbors",38201,14438
