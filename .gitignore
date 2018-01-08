@@ -1,6 +1,12 @@
+# disallow
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 ~*
 .DS_Store
+_book
+
+# allow
+_book/methods-notes.pdf
+_book/methods-notes.tex
