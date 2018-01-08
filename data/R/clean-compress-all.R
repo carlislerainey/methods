@@ -13,6 +13,12 @@ rmarkdown::render("data/codebooks/parties-codebook.Rmd",
                   output_format = "all")
 rmarkdown::render("data/examples/example-parties.R")
 
+## progresa
+source("data/R/clean-progresa.R")
+rmarkdown::render("data/codebooks/progresa-codebook.Rmd", 
+                  output_format = "all")
+rmarkdown::render("data/examples/example-progresa.R")
+
 ## social-pressure
 source("data/R/clean-social-pressure.R")
 rmarkdown::render("data/codebooks/social-pressure-codebook.Rmd", 

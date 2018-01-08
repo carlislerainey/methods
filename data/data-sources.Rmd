@@ -26,6 +26,8 @@ anes_df <- read_rds("anes.rds")
 glimpse(anes_df)
 ```
 
+----
+
 - `parties`
     - citation: William Clark; Matt Golder, 2007, "Replication data for: Rehabilitating Duverger's Theory: Testing the Mechanical and Strategic Modifying Effects of Electoral Laws", hdl:1902.1/10477, Harvard Dataverse, V1, UNF:3:9vZjXJDKPmggOHufBr6UKw==.
     - accessed: 2018-01-04
@@ -42,16 +44,38 @@ parties_df <- read_rds("parties.rds")
 glimpse(parties_df)
 ```
 
+----
+
+- `progresa`
+    - citation: De La O., Ana, L. 2013. "Do conditional cash transfers affect electoral behavior? Evidence from a randomized experiment in Mexico." *American Journal of Political Science* 57(1): 1-14.
+    - accessed: 2018-01-08.
+    - raw data: `raw-data/DeLaO_AJPS2013_rep_file.dta`
+    - raw codebook: `raw-data/codebooks/DeLaO_AJPS2012.do`
+    - link: http://campuspress.yale.edu/anadelao/research/
+    - codebook: `codebooks/progresa-codebook.html` and `codebooks/progresa-codebook.pdf`.
+    - example: `examples/example-progresa.R` and `examples/example-progresa.html`. 
+    
+```{r message=FALSE, warning=FALSE}
+# load data
+progresa_df <- read_rds("progresa.rds")
+
+# quick look
+glimpse(progresa_df)
+```    
+
+----
+
 - `social-pressure`
     - raw data: `raw-data/GerberGreenLarimer_APSR_2008_social_pressure.csv`.
     - link: https://isps.yale.edu/research/data/d001.
+    
+----    
 
 - `state-governments`
     - citation: Klarner, Carl, 2013, "State Partisan Balance Data, 1937 - 2011", hdl:1902.1/20403, Harvard Dataverse, V1. 
     - accessed: 2018-01-02. 
     - raw filename: `raw-data/Partisan_Balance_For_Use2011_06_09b.xlsx`.
     - raw codebook: `raw-data/codebooks/Partisan_Balance_For_Use2012_10_18_Codebook.docx`.
-
 
 ```{r message=FALSE, warning=FALSE}
 # load data

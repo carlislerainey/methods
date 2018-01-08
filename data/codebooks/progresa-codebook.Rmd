@@ -1,0 +1,122 @@
+---
+title: 'Codebook: `progresa` '
+template: default
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r global_options, include=FALSE}
+wd <- normalizePath("../../")
+wd
+knitr::opts_knit$set(fig.path='fig/',
+               echo=FALSE, warning=FALSE, message=FALSE,
+               root.dir=wd)
+```
+
+This data set is a cleaned version of the data from De La O's (2013) paper "Do Conditional Cash Transfers Affect Electoral Behavior? Evidence from a Randomized Experiment in Mexico" [[link](http://campuspress.yale.edu/anadelao/files/2010/11/DeLaO_AJPS2013.pdf)]. I obatined her replication data from the file `DeLaO_AJPS2013_rep_file.dta` posted to her research page [[link](http://campuspress.yale.edu/anadelao/research/)].
+
+The following versions are available:
+
+```{r, echo=FALSE}
+list.files(path = "data/", pattern = "parties.")
+```
+
+
+The data set is at the **region level**, so that each row represents a particular administrative region.
+
+# Load Data
+
+```{r, message=FALSE, warning=FALSE}
+# load packages
+library(tidyverse)
+library(rio)
+
+# load data
+progresa_df <- import("data/progresa.rds")
+
+# quick look at data
+glimpse(progresa_df)
+```
+
+# Variable Descriptions
+
+## `condition`: Condition
+
+- Coding: The the exerimental condition of each region.
+- Type: factor
+
+````{r}
+# sort and print country names
+levels(progresa_df$condition)
+```
+
+## `turnout`: Year
+
+- Coding: The voter turnout in the region, as a proportion.
+- Type: double
+
+````{r}
+# histogram
+ggplot(progresa_df, aes(x = turnout)) + 
+  geom_histogram()
+```
+
+## `average_magnitude`: Average District Magnitude
+
+- Coding: The average (or mean) of the district magnitude (the number of seats available in the district) across all the districts in the country. For the U.S. House of Representatives, this would be one, because we have single-member districts (i.e., magnitude of one). In Israel, the average magnitude is 120, because they have a single national district with 120 members.
+- Type: double
+
+```{r}
+# histogram
+ggplot(parties_df, aes(x = average_magnitude)) + 
+  geom_histogram()
+```
+
+## `enep`: The Effective Number of **Electoral** Parties
+
+- Coding: Calculated as $ENEP_j = \dfrac{1}{\sum_{i = 1}^n v_{ij}^2}$, where $ENEP_j$ represents the effective number of electoral parties in election $j$ and $v_{ij}$ represents the **vote share** (as a proportion) for party $i$ in election $j$. For the details of this measure, see Clark and Golder (2006) or Clark, Golder, and Golder (ctk), chapter ctk. 
+- Type: double
+
+```{r}
+# histogram
+ggplot(parties_df, aes(x = enep)) + 
+  geom_histogram()
+```
+
+## `enlp`: The Effective Number of **Legislative** Parties
+
+- Coding: Calculated as $ENLP_j = \dfrac{1}{\sum_{i = 1}^n s_{ij}^2}$, where $ENLP_j$ represents the effective number of legislative parties in election $j$ and $v_{ij}$ represents the **seat share** (as a proportion) for party $i$ in election $j$. For the details of this measure, see Clark and Golder (2006) or Clark, Golder, and Golder (ctk), chapter ctk. 
+- Type: double
+
+```{r}
+# histogram
+ggplot(parties_df, aes(x = enlp)) + 
+  geom_histogram()
+```
+
+## `eneg`: The Effective Number of **Ethnic Groups**
+
+- Coding: Calculated as $ENEG_j = \dfrac{1}{\sum_{i = 1}^n p_{ij}^2}$, where $ENEG_j$ represents the effective number of ethnic groups in the country when election $j$ occurred and $p_{ij}$ represents the proportion of the population falling into ethnic group $i$ when election $j$ occurred. For the details of this measure, see Clark and Golder (2006) or Clark, Golder, and Golder (ctk), chapter ctk. 
+- Type: double
+
+```{r}
+# histogram
+ggplot(parties_df, aes(x = enlp)) + 
+  geom_histogram()
+```
+
+## `electoral_system`: The Type of Electoral System
+
+- Source: This varaible is created from `average_magnitude`.
+- Coding:
+    - `"Single-Member Distict"`: when `average_magnitude` = 1.
+    - `"Small-Magnitude PR"`: when 1 < `average_magnitude` $\leq$ 7.
+    - `"Large-Magnitude PR"`: when `average_magnitude` > 7.
+- Type: factor
+
+```{r}
+# bar plot
+ggplot(parties_df, aes(x = electoral_system)) + 
+  geom_bar()
+```

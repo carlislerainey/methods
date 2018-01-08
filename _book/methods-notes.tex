@@ -774,7 +774,7 @@ number of entries.
 \section{Converting Proportions to
 Percents}\label{converting-proportions-to-percents}
 
-Proportions serve an important purpose--they make math easy. However,
+Proportions serve an important purpose---they make math easy. However,
 the scale makes proportions difficult to write or talk about. To make
 the math easy, we use proportions. To make the interpretation easy, we
 use percents.
@@ -796,7 +796,7 @@ the data in Table \ref{tab:grades}.
 
 \rowcolors{2}{gray!6}{white}
 
-\begin{table}
+\begin{table}[!h]
 
 \caption{\label{tab:grades}Class standing and letter grades of 15 hypothetical students.}
 \centering
@@ -806,23 +806,23 @@ the data in Table \ref{tab:grades}.
 Name & Class & Grade\\
 \midrule
 \showrowcolors
-Jean & Junior & B\\
-Demetrius & Senior & B\\
+Joan & Junior & B\\
 John & Senior & B\\
-Agnes & Senior & C\\
-Ethelene & Sophomore & A\\
+Barbara & Senior & B\\
+Eric & Senior & C\\
+Sara & Sophomore & A\\
 \addlinespace
-James & Freshman & B\\
-Madden & Sophomore & C\\
-Ruben & Junior & A\\
-Tia & Junior & D\\
-Damon & Senior & D\\
+Frances & Freshman & B\\
+Noel & Sophomore & C\\
+Robert & Junior & A\\
+Joseph & Junior & D\\
+Marty & Senior & D\\
 \addlinespace
-Alberta & Freshman & B\\
-Robert & Freshman & D\\
-Dolores & Junior & B\\
-Mary & Freshman & C\\
-Joe & Sophomore & B\\
+Jason & Freshman & B\\
+Benjamin & Freshman & D\\
+Amanda & Junior & B\\
+Thomas & Freshman & C\\
+Estella & Sophomore & B\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -893,7 +893,7 @@ Create a 0-1 list where 1 indicates sophomores and 0 indicates. Table
 
 \rowcolors{2}{gray!6}{white}
 
-\begin{table}
+\begin{table}[!h]
 
 \caption{\label{tab:gradesw01list}Class standing and letter grades of 15 hypothetical students.}
 \centering
@@ -955,7 +955,7 @@ exactly \(\sqrt{0.2 \times 0.8} = 0.4\). If the average of a 0-1 list is
 0.5, then the SD is exactly \(\sqrt{0.5 \times 0.5} = 0.5\).
 
 Because of this, we usually pay little attention to variation when
-working with lists of qualitative values--the proportion (or percent)
+working with lists of qualitative values---the proportion (or percent)
 contains all the information we need.
 
 However, this shortcut will help us later, so remember it.
@@ -1019,7 +1019,7 @@ We can say two things about proportions and percents:
 
   \rowcolors{2}{gray!6}{white}
 
-  \begin{table}
+  \begin{table}[!h]
 
   \caption{\label{tab:govtcontroldata}The partisan control of each branch of the 49 (excluding Nebraska) state governments in 2011.}
   \centering
@@ -1189,7 +1189,7 @@ We can say two things about proportions and percents:
 
   \rowcolors{2}{gray!6}{white}
 
-  \begin{table}
+  \begin{table}[!h]
 
   \caption{\label{tab:socialpressuredata}The numbers of experimental subjects in each condition and the number of subjects in each condition that voted in Gerber, Green, and Larimer's (2008) experiment.}
   \centering
@@ -1209,6 +1209,96 @@ We can say two things about proportions and percents:
   \end{table}
 
   \rowcolors{2}{white}{white}
+\item
+  In an article published in 2013 in the \emph{American Journal of
+  Political Science} (Volume 57, Issue 1, pp.~1-14) titled ``Do
+  Conditional Cash Transfers Affect Electoral Behavior? Evidence from a
+  Randomized Experiment in Mexico,'' Ana L. De La O presents an argument
+  that conditional cash transfer programs increase turnout. She
+  summarizes her results (p.~11) as follows:
+
+  \begin{quote}
+  This article provides evidence on the electoral returns of the Mexican
+  CCT by analyzing a unique randomized vari- ation in the duration of
+  program benefits across eligible villages. The findings suggest that
+  the targeted program led to an increase in voter turnout and incumbent
+  vote shares. While previous work focuses on CCT persuasive effects,
+  this article shows that the CCT pro-incumbent effects are mainly
+  explained by a mobilizing mechanism.
+  \end{quote}
+
+  But what is CCT program? De La O summarizes Mexico's policy (p.~3):
+
+  \begin{quote}
+  Responding to this context, the administration of President Ernesto
+  Zedillo launched Progresa in 1997. The program consists of three
+  complementary components: a cash transfer, primarily intended to
+  subsidize food expenditure, delivered directly to the female heads of
+  poor households; a scholarship, intended to compensate for the
+  opportunity cost of child labor, thus enabling children to stay in
+  school; and basic health care for all members of the household, with
+  particular emphasis on preventive health care. All the components add
+  up to an average transfer of US\$35 per month, of which more than 85\%
+  is in cash. This is approximately 25\% of the average poor, rural
+  household income in the absence of the program. Transfers are paid
+  every two months. Progresa is conditional because receipt of benefits
+  is contingent upon school attendance, regular medical checkups, and
+  attendance at platicas (meetings) related to health, hygiene, and
+  nutrition issues.
+  \end{quote}
+
+  However, the government rolled out the policy in waves. Some
+  locations---an ``early immplementation'' group---received the policy
+  by late-1997. Other locations---a ``late implementation''
+  group---received the policy in early 2000. Importantly, each location
+  was assigned to its group \emph{randomly}.
+
+  De La O was particularly interested in the effect of the policy on
+  voter turnout. She writes that ``assignment to early treatment leads
+  to a 5 percentage point increase in turnout.'' To see the evidence for
+  her claim, Table @ref\{tab:progressatab\} shows the average turnout in
+  each condition. This table shows that the average turnout across
+  locations in the early condition was 68\% and the average turnout
+  across locations in the late condition was 63\%. Based on these
+  average turnout rates, it seems like the early implementation of the
+  program increased turnout by about 5 percentage points on average.
+
+  \begin{table}[!h]
+
+  \caption{\label{tab:progressatab}The average turnout in each condition in De La O.'s study.}
+  \centering
+  \begin{tabular}[t]{cc}
+  \toprule
+  Condition & Average Turnout\\
+  \midrule
+  Early Implementation & 68\%\\
+  Late Implementation & 63\%\\
+  \bottomrule
+  \end{tabular}
+  \end{table}
+
+  For a more detailed look, we can also examine histgrams showing the
+  distribution of turnout across locations in the two conditions. Figure
+  \ref{fig:progresafig} shows these histograms. Does everything seem in
+  order? Or can you spot something wrong? Do you think this likely
+  undermines her conclusion, why or why not? (Perhaps you find Table
+  @ref\{tab:progresatabmed\} helpful.)
+
+  \begin{center}\includegraphics{methods-notes_files/figure-latex/progressafig-1} \end{center}
+
+  \begin{table}[!h]
+
+  \caption{\label{tab:progressatabmed}The median turnout in each condition in De La O.'s study.}
+  \centering
+  \begin{tabular}[t]{cc}
+  \toprule
+  Condition & Median Turnout\\
+  \midrule
+  Early Implementation & 65\%\\
+  Late Implementation & 65\%\\
+  \bottomrule
+  \end{tabular}
+  \end{table}
 \end{enumerate}
 
 \bibliography{book.bib,packages.bib}

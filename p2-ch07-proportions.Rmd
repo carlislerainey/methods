@@ -36,7 +36,7 @@ $$\text{proportion in the category} = \dfrac{\text{number of entries that fall i
 
 ## Converting Proportions to Percents
 
-Proportions serve an important purpose--they make math easy. 
+Proportions serve an important purpose---they make math easy. 
 However, the scale makes proportions difficult to write or talk about.
 To make the math easy, we use proportions. To make the interpretation easy, we use percents.
 
@@ -66,7 +66,7 @@ df <- data.frame(Name = name,
                  Grade = sample(grade, size = 15, replace = TRUE, prob = c(1, 2, 3, 1, 1)))
 kable(df, booktabs = TRUE, align = "c",
       caption = "Class standing and letter grades of 15 hypothetical students.") %>% 
-  kable_styling(position = "center", latex_options = c("striped"))
+  kable_styling(position = "center", latex_options = c("striped", "hold_position"))
 ```
 
 > First count the number of sophomores in the list. We have `r sum(df$Class == "Sophomore")`. Next, count the number of total students in the class. We have `r length(df$Class)`. Finally, divide the number of sophomores by total number of students. We have $\frac{`r sum(df$Class == "Sophomore")`}{`r length(df$Class)`} = `r sum(df$Class == "Sophomore")/length(df$Class)`$.
@@ -119,7 +119,7 @@ df <- data.frame(Name = name,
 
 kable(df, booktabs = TRUE, align = "c",
       caption = "Class standing and letter grades of 15 hypothetical students.") %>% 
-  kable_styling(position = "center", latex_options = c("striped")) %>%
+  kable_styling(position = "center", latex_options = c("striped", "hold_position")) %>%
   add_footnote(c("1 indicates sophomores and 0 indicates not-sophomores."),
                notation = "symbol")
 ```
@@ -145,7 +145,7 @@ Notice that the average of a 0-1 list (the proportion) determines the SD *exactl
 If the average of a 0-1 list is 0.25, then the SD is exactly $\sqrt{0.2 \times 0.8} = 0.4$. 
 If the average of a 0-1 list is 0.5, then the SD is exactly $\sqrt{0.5 \times 0.5} = 0.5$. 
 
-Because of this, we usually pay little attention to variation when working with lists of qualitative values--the proportion (or percent) contains all the information we need.
+Because of this, we usually pay little attention to variation when working with lists of qualitative values---the proportion (or percent) contains all the information we need.
 
 However, this shortcut will help us later, so remember it.
 
@@ -181,7 +181,7 @@ We can say two things about proportions and percents:
     
     # print md table
     knitr::kable(df, align = "c", caption = "The partisan control of each branch of the 49 (excluding Nebraska) state governments in 2011.") %>%
-            kable_styling(full_width = FALSE, latex_options = c("striped"), font_size = 9)
+            kable_styling(full_width = FALSE, latex_options = c("striped", "hold_position"), font_size = 9)
     ```
 
 1. Obtain a copy of Gerber, Green, and Larimer's 2008 article "Social Pressure and Voter Turnout: Evidence from a Large-scale Field Experiment" published in the *American Political Science Review* (Volume 102, Issue 1, pp. 33-48). Complete the following tasks:
@@ -212,10 +212,76 @@ We can say two things about proportions and percents:
     
     kable(df, booktabs = TRUE, align = "c", 
           caption = "The numbers of experimental subjects in each condition and the number of subjects in each condition that voted in Gerber, Green, and Larimer's (2008) experiment.") %>% 
-      kable_styling(full_width = FALSE, latex_options = c("striped", "scale_down")) %>%
+      kable_styling(full_width = FALSE, latex_options = c("striped", "scale_down", "hold_position")) %>%
       column_spec(1) %>% 
       column_spec(2, width = "10em") %>% 
       column_spec(3, width = "10em") %>% 
       column_spec(4, width = "10em") %>% 
       column_spec(5, width = "10em")
     ```
+    
+1. In an article published in 2013 in the *American Journal of Political Science* (Volume 57, Issue 1, pp. 1-14) titled "Do Conditional Cash Transfers Affect Electoral Behavior? Evidence from a Randomized Experiment in Mexico," Ana L. De La O presents an argument that conditional cash transfer programs increase turnout. She summarizes her results (p. 11) as follows:
+
+    > This article provides evidence on the electoral returns of the Mexican CCT by analyzing a unique randomized vari- ation in the duration of program benefits across eligible villages. The findings suggest that the targeted program led to an increase in voter turnout and incumbent vote shares. While previous work focuses on CCT persuasive effects, this article shows that the CCT pro-incumbent effects are mainly explained by a mobilizing mechanism.
+
+    But what is CCT program? De La O summarizes Mexico's policy (p. 3): 
+    
+    > Responding to this context, the administration of President Ernesto Zedillo launched Progresa in 1997. The program consists of three complementary components: a cash transfer, primarily intended to subsidize food expenditure, delivered directly to the female heads of poor households; a scholarship, intended to compensate for the opportunity cost of child labor, thus enabling children to stay in school; and basic health care for all members of the household, with particular emphasis on preventive health care. All the components add up to an average transfer of US$35 per month, of which more than 85% is in cash. This is approximately 25% of the average poor, rural household income in the absence of the program. Transfers are paid every two months. Progresa is conditional because receipt of benefits is contingent upon school attendance, regular medical checkups, and attendance at platicas (meetings) related to health, hygiene, and nutrition issues.
+    
+    However, the government rolled out the policy in waves. Some locations---an "early immplementation" group---received the policy by late-1997. Other locations---a "late implementation" group---received the policy in early 2000. Importantly, each location was assigned to its group *randomly*.
+    
+    De La O was particularly interested in the effect of the policy on voter turnout. She writes that "assignment to early treatment leads to a 5 percentage point increase in turnout." To see the evidence for her claim, Table \@ref{tab:progressatab} shows the average turnout in each condition. This table shows that the average turnout across locations in the early condition was 68% and the average turnout across locations in the late condition was 63%. Based on these average turnout rates, it seems like the early implementation of the program increased turnout by about 5 percentage points on average.
+    
+    ```{r progressatab, echo=FALSE}
+    # load packages
+    library(tidyverse)
+    library(rio)
+    
+    # load and clean data for example
+    progresa_df <- import("data/progresa.rds")
+    
+    # find the average for each condition
+    grouped_df <- group_by(progresa_df, condition)  # group the data frame
+    smry_df <- summarize(grouped_df,  # find avg. for each group 
+                         avg = mean(turnout, na.rm = TRUE)) %>%
+      mutate(avg = paste0(round(100*avg), "%")) %>%
+      rename(`Condition` = condition,
+             `Average Turnout` = avg)
+    kable(smry_df, booktabs = TRUE, align = "c", 
+          caption = "The average turnout in each condition in De La O.'s study.") %>%
+      kable_styling(latex_options = c("hold_position"))
+    ```
+    
+    For a more detailed look, we can also examine histgrams showing the distribution of turnout across locations in the two conditions. Figure \@ref(fig:progresafig) shows these histograms. Does everything seem in order? Or can you spot something wrong? Do you think this likely undermines her conclusion, why or why not? (Perhaps you find Table \@ref{tab:progresatabmed} helpful.) 
+    
+    ```{r progressafig, echo=FALSE, fig.height=2, fig.width=5, message=FALSE, warning=FALSE, fig.align='center'}
+    # plot histogram
+    ggplot(progresa_df, aes(x = turnout, y = ..density..)) + 
+      geom_histogram() +
+      facet_wrap(~ condition) +
+      scale_x_continuous(labels = scales::percent)  + # convert prop. to %
+      labs(x = "Turnout", 
+           y = "Density")
+    ```
+    
+    ```{r progressatabmed, echo=FALSE}
+    # load packages
+    library(tidyverse)
+    library(rio)
+    library(kableExtra)
+    
+    # load and clean data for example
+    progresa_df <- import("data/progresa.rds")
+    
+    # find the average for each condition
+    grouped_df <- group_by(progresa_df, condition)  # group the data frame
+    smry_df <- summarize(grouped_df,  # find avg. for each group 
+                         med = median(turnout, na.rm = TRUE)) %>%
+      mutate(med= paste0(round(100*med), "%")) %>%
+      rename(`Condition` = condition,
+             `Median Turnout` = med)
+    
+    kable(smry_df, booktabs = TRUE, align = "c", 
+          caption = "The median turnout in each condition in De La O.'s study.") %>%
+      kable_styling(latex_options = c("hold_position"))
+    ```    
