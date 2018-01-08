@@ -4,43 +4,76 @@ output:
   pdf_document: default
 ---
 
-# Proportions
+# Proportions and Percents
 
-We can imagine lots of lists that are not numbers. This lists contain qualitative variables. We might have a lists that contains the class of each student in the class. Rather than contain numbers, this list contains values like "Freshman," "Sophomore," "Junior," and "Senior." 
+We can imagine lots of lists do not contain numbers. 
+Instead of number, these lists contain not-numbers.
+We sometimes refer to not-numbers as "qualitative" (as opposed to "quantitative") values. 
+We might have a list that contains the class standing of each student in our class. 
+Rather than numbers, this list of not-numbers contains qualitative values like "Freshman," "Sophomore," "Junior," and "Senior." 
 
-Similarly, at the end of the semester, I have a list of grades. The most important list is Letter Grades which contains values like A, B, C, D, and F. We might have lists that contain partisanship, ideology, regime type, and so on. 
+Similarly, at the end of the semester, I have two lists of grades. 
+The first lists numbers that represent each student's points in the class.
+This list of quantitative values ranges from 0 to 100.
+But you care more about the second list, which contains each student's letter grade in the class. 
+This list of not-numbers contains the qualitative values A, B, C, D, and F. 
 
-When we deal with lists that contain not-numbers, we cannot use the average because we cannot sum the not-numbers. 
+**Exercise:** Similarly, we might have lists that contains partisanships, ideologies, regime types, and so on. What qualitative values might we find in a list of partisanships? Ideologies? Regime types?
 
-Instead, we use proportions. We choose a particular category and compute the proportion of a list that fall into that category. Note that this "particular category"" might contain several values, such as freshman or sophomore (underclassmen) or A, B, or C (passing grades). For example, we say a certain proportion of the class are freshman. Or we say that a certain proportion of a class received an A, B, or C.
+When we deal with lists that contain qualitative values, **we cannot use the average** because we cannot sum the not-numbers. 
 
+Instead of an averarge, we use *proportions*. 
+We choose a particular qualitative values and compute the proportion of the list that falls has that value. 
+Note that this "particular category" might contain several values, such as freshman or sophomore (underclassmen) or A, B, or C (passing grades). 
+For example, we say a certain proportion of the class are freshman. 
+Or we say that a certain proportion of a class received an A, B, or C.
 
 ## Calculating Proportions
 
-To compute a proportion, simply count the number of entries in the list that fall in the particular category and divide that by the total number of entries.
+To calucate a proportion, simply count the number of entries in the list that fall in the particular category and divide that number by the total number of entries.
 
 $$\text{proportion in the category} = \dfrac{\text{number of entries that fall into the category}}{\text{total number of entries}}$$
 
-For example, take the 
+## Converting Proportions to Percents
 
-```{r echo = FALSE, results = 'asis'}
+Proportions serve an important purpose--they make math easy. 
+However, the scale makes proportions difficult to write or talk about.
+To make the math easy, we use proportions. To make the interpretation easy, we use percents.
+
+To convert a proportion to a percent, we simply multiply the proportion times 100%.
+
+$$\text{percent in the category} = \text{proportion in the category} \times 100\%$$.
+
+As a general rule of thumb, I recommend that you convert proportions to percents, but only *after you complete all calculations.*^[Sometimes, calculation that work for proportions also work for percents. However, sometimes they do not. Because of these, I recommend doing all calculations with proportion and convert the final answer into a percent.]
+
+**Example**: Compute the percent of sophomores in the class from the data in Table \@ref(tab:grades). 
+
+```{r grades, echo=FALSE, message=FALSE, warning=FALSE}
 library(knitr)
+library(tidyverse)
+library(magrittr)
+library(kableExtra)
+library(babynames)
+data(babynames)
+
 class <- c("Freshman", "Sophomore", "Junior", "Senior")
 grade <- c("A", "B", "C", "D", "F")
+name <- sample(babynames$name, size = 15, prob = babynames$prop)
 
 set.seed(12345)
-df <- data.frame(Class = sample(class, size = 10, replace = TRUE), 
-                 Grade = sample(grade, size = 10, replace = TRUE, prob = c(1, 2, 3, 1, 1)))
-kable(t(df), caption = "Class standing and letter grades of 15 hypothetical students.")
+df <- data.frame(Name = name, 
+                 Class = sample(class, size = 15, replace = TRUE), 
+                 Grade = sample(grade, size = 15, replace = TRUE, prob = c(1, 2, 3, 1, 1)))
+kable(df, booktabs = TRUE, align = "c",
+      caption = "Class standing and letter grades of 15 hypothetical students.") %>% 
+  kable_styling(position = "center", latex_options = c("striped"))
 ```
 
-**Example**: Compute the percent of sophomores in the class. 
+> First count the number of sophomores in the list. We have `r sum(df$Class == "Sophomore")`. Next, count the number of total students in the class. We have `r length(df$Class)`. Finally, divide the number of sophomores by total number of students. We have $\frac{`r sum(df$Class == "Sophomore")`}{`r length(df$Class)`} = `r sum(df$Class == "Sophomore")/length(df$Class)`$.
 
-> First count the number of sophomores in the list. We have `r sum(df$Class == "Sophomore")`. Next, count the number of total students in the class. We have `r length(df$Class)`. Finally, divide the number of sophomores by total number of students. We have $\frac{`r sum(df$Class == "Sophomore")`}{`r length(df$Class)`}$.
+> To convert the proportion 0.2 to a percent, we simply multiply it by 100%. This gives $0.2 \times 100\% = 20\%$. We can then say "20% of the students in the class are sophomores."
 
-> If we want, we can leave this proportion as is, reduce it to a simpler form, or convert it to a percent. It's usually easiest to convert the final proportion to a percent. in this cases, we have `r round(100*sum(df$Class == "Sophomore")/length(df$Class))`%.
-
-**Exercises**: 
+**Exercises**
 
 1. Compute the percent of students in the class that are sophomores. Compute the percent that are juniors or seniors.
 1. Compute the percent of students that received an F. Compute the percent that received an A or a B.
@@ -48,48 +81,89 @@ kable(t(df), caption = "Class standing and letter grades of 15 hypothetical stud
 
 ## The Mathematics of Proportions
 
-The approach above to compute a proportion works perfectly. However, it does not clearly connect to the past or future discussion of averages. 
+The approach I describe above to compute a proportion works perfectly. 
+However, it does not clearly connect to the past (or future) discussion of averages. 
 
-If we can connect proportions and averages, then we can apply the same theory to two concepts, cutting our theory and formulas by half.
+If we can connect proportions and averages, then we reduce our work later.
+By thinking of a proportion as a special kind of average, we can apply the same ideas to two concepts, cutting the ideas we need to learn and understand in half.
 
-To connect proportions and averages, we simply convert the list of not-numbers into a list of numbers. To create the new list of numbers, simply assign the number 1 to the entries that fall into the particular category. Assign zero to the other entries. This creates a list of numbers that contains only 0s and 1s. I call this a 0-1 list. The proportion is simply the average of this 0-1 list. 
+To see that a proportion is a special type of average, we can simply convert the list of not-numbers into a list of numbers. 
+To create the new list of numbers, assign the number 1 to the entries that fall into the particular category and assign the number 0 to the other entries. 
+This creates a new list of numbers that contains only 0s and 1s. 
+I call this type of list a 0-1 list. 
+The proportion is simply the average of this 0-1 list. 
 
-**Note: We can think of a proportion as an average of a 0-1 list.**
+**Important: We can think of a proportion as an average of a 0-1 list.**
 
-Notice that a proportion is a special type of average: it is an average of a 0-1 list that you create by replacing the entries that fall into the categories of interest with 1s and replacing the other entries with zero. 
+Example: Using a 0-1 list, compute the proportion of students in Table \@ref(tab:grades) that are sophomores.
 
-**Exercise**: Suppose I’m evaluating the admissions process so I put together a list containing the gender of the admitted graduate students. This list is M, M, F, F, M, M, M, M, F, M, and M.
+> Create a 0-1 list where 1 indicates sophomores and 0 indicates. Table \@ref(tab:gradesw01list) includes this 0-1 list. Now simply average the 0-1 list. We have $\frac{\text{sum of 0-1 list}}{\text{number of entries in 0-1 list}} = \frac{`r sum(df$Class == "Sophomore")`}{`r length(df$Class)`} = `r sum(df$Class == "Sophomore")/length(df$Class)`$.
 
+```{r gradesw01list, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(tidyverse)
+library(magrittr)
+library(kableExtra)
+library(babynames)
+data(babynames)
+
+class <- c("Freshman", "Sophomore", "Junior", "Senior")
+grade <- c("A", "B", "C", "D", "F")
+name <- sample(babynames$name, size = 15, prob = babynames$prop)
+
+set.seed(12345)
+df <- data.frame(Name = name, 
+                 Class = sample(class, size = 15, replace = TRUE), 
+                 Grade = sample(grade, size = 15, replace = TRUE, prob = c(1, 2, 3, 1, 1))) %>%
+  mutate(`0-1 List[note]` = ifelse(Class == "Sophomore", 1, 0))
+
+kable(df, booktabs = TRUE, align = "c",
+      caption = "Class standing and letter grades of 15 hypothetical students.") %>% 
+  kable_styling(position = "center", latex_options = c("striped")) %>%
+  add_footnote(c("1 indicates sophomores and 0 indicates not-sophomores."),
+               notation = "symbol")
+```
+
+**Exercise:** Suppose I want to evaluate the graduate admissions process at a university, so I put together a list containing the gender of the admitted graduate students and obtain M, M, F, F, M, M, M, M, F, M, and M.
 Try two ways to calculating the proportion of women admitted. 
-1. The inital way I described: count the number of women in the list and divide that by the total number of entries.
-2. The more mathematical way I described: write down the implied 0-1 list (replace Woman with 1 and everything else with 0) and then average the list. 
-Are these two approaches different or the same? Elaborate?
-
-If we understand proportions as a special type of average, then anything we say about averages applies to proportions too!
+First, use inital method I described: count the number of women in the list and divide that by the total number of entries. 
+Next, use the more mathematical way I described: write down the implied 0-1 list (replace F with 1 and everything else with 0) and then average the list. 
+Are these two approaches different or the same? 
+Can you explain why the results are identical?
 
 ## SD of a 0-1 List
 
-If we convert a list of qualitative values into a 0-1 list, then we can compute the SD of the new list. Just like with other lists of numbers, the SD of a 0-1 list is the r.m.s. of the deviations from average. We can compute the SD the usual way. But the usual way takes time, and if we have a 0-1 list, we have a shortcut.
+If we convert a list of not-numbers into a 0-1 list, then we can compute the SD of the new list. 
+Just like with other lists of numbers, the SD of a 0-1 list is the R.M.S. of the deviations from average. 
+We can compute the SD the usual way. 
+But, as you well know, the usual way takes time. 
+If we have a 0-1 list, though, we can use a shortcut.
 
 $$\text{SD of a 0-1 list} = \sqrt{\text{ave. of list} \times (1 - \text{ave. of list})}$$
 
-Notice that the average of a 0-1 list determines the SD *exactly*. If the average of a 0-1 list is 0.25, then the SD is exactly $\sqrt{0.2 \times 0.8} = 0.4$. If the average of a 0-1 list is 0.5, then the SD is exactly $\sqrt{0.5 \times 0.5} = 0.5$. 
+Notice that the average of a 0-1 list (the proportion) determines the SD *exactly*. 
+If the average of a 0-1 list is 0.25, then the SD is exactly $\sqrt{0.2 \times 0.8} = 0.4$. 
+If the average of a 0-1 list is 0.5, then the SD is exactly $\sqrt{0.5 \times 0.5} = 0.5$. 
 
-Because of this, we do not often discuss the variation when working with lists of qualitative values--the proportion contains all the information we need.
+Because of this, we usually pay little attention to variation when working with lists of qualitative values--the proportion (or percent) contains all the information we need.
 
-However, this shortcut will help us later. 
+However, this shortcut will help us later, so remember it.
 
-## Properties of Proportions
+Exercise: Suppose a 0-1 list that contains 6 0s and 4 1s. What is average of this list? What proportion are 1s? What is the SD of the list?
 
-We can say three things about proportions: 
+## Two Facts about Proportions and Percents
 
-1. They are at least 0 and at most 1. If none of the entries fall into the category, then the top (numerator) of the proportion equals 0, and therefore the whole proportion equals 0. If all of the entries fall into the category, then the top of the proportion (numerator) equals the bottom of the proportion (denominator), and thefore the whole proportion equals 1.
-2. The proportion that do not fall into a category is 1 minus the proportion that fall into a category. 
-3. It is easier to talk about percents. After we finish all our calculations, we usually convert proportions to percents by multiplying the proportion by 100%. It usually round this percent to the nearest whole percent.
+We can say two things about proportions and percents: 
+
+1. A proportion is at least 0 and at most 1. Similarly, the percent is at least 0% and at most 100%. If none of the entries fall into the category, then the top (numerator) of the formula for a proportion equals 0, and therefore the whole proportion equals 0. If all of the entries fall into the category, then the top of the formula for the proportion proportion (numerator) equals the bottom of the proportion (denominator), and thefore the whole proportion equals 1. 
+2. The proportion that do not fall into a particular category is 1 minus the proportion that fall into that category. It turns out that the percent that do not fall into a particular category is 100% minus the percent that fall into that category.
+
+**Exercises**
+
+1. In a Gallup poll conducted in late December of 2017, 39% of respondents said they "approve" of the job that Donald Trump is doing as president. What percent did not say they approve? In the same survey, 55% said they "disapprove" of the job that Donald Trump is doing as president. How is this possible?
+1. I wrote a computer program to analyze a data set. I found that 120% of citizens living in a district received contact from a political campaign. Did I do something wrong?
 
 ## Review Exercises
-
-
 
 1. Table \@ref(tab:govtcontroldata) shows the partisan control of each branch of the 49 U.S. states (excluding Nebraska) in 2011. Compute the proportion of states with a Republican governor. Repeat for house and senate. Is the proportion of Democratic governors, houses, and senates necessarily $1 - \text{proportion Republican}$? Why or why not? Which party has most control in the U.S. states? Can you think of any ways that control of state governments affect national politics? 
 
