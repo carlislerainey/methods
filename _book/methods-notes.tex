@@ -88,6 +88,17 @@ Science}
   \date{2018-01-08}
 
 \usepackage{booktabs}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -883,7 +894,6 @@ We can say three things about proportions:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
-\tightlist
 \item
   Table \ref{tab:govtcontroldata} shows the partisan control of each
   branch of the 49 U.S. states (excluding Nebraska) in 2011. Compute the
@@ -892,116 +902,193 @@ We can say three things about proportions:
   necessarily \(1 - \text{proportion Republican}\)? Why or why not?
   Which party has most control in the U.S. states? Can you think of any
   ways that control of state governments affect national politics?
+
+  \begin{table}
+
+  \caption{\label{tab:govtcontroldata}The partisan control of each branch of the 49 (excluding Nebraska) state governments in 2011.}
+  \centering
+  \begin{tabular}[t]{c|c|c|c}
+  \hline
+  state & governor & house & senate\\
+  \hline
+  Alabama & Republican & Republican & Republican\\
+  \hline
+  Alaska & Republican & Republican & Split\\
+  \hline
+  Arizona & Republican & Republican & Republican\\
+  \hline
+  Arkansas & Democrat & Democrat & Democrat\\
+  \hline
+  California & Democrat & Democrat & Democrat\\
+  \hline
+  Colorado & Democrat & Republican & Democrat\\
+  \hline
+  Connecticut & Democrat & Democrat & Democrat\\
+  \hline
+  Delaware & Democrat & Democrat & Democrat\\
+  \hline
+  Florida & Republican & Republican & Republican\\
+  \hline
+  Georgia & Republican & Republican & Republican\\
+  \hline
+  Hawaii & Democrat & Democrat & Democrat\\
+  \hline
+  Idaho & Republican & Republican & Republican\\
+  \hline
+  Illinois & Democrat & Democrat & Democrat\\
+  \hline
+  Indiana & Republican & Republican & Republican\\
+  \hline
+  Iowa & Republican & Republican & Democrat\\
+  \hline
+  Kansas & Republican & Republican & Republican\\
+  \hline
+  Kentucky & Democrat & Democrat & Republican\\
+  \hline
+  Louisiana & Republican & Republican & Democrat\\
+  \hline
+  Maine & Republican & Republican & Republican\\
+  \hline
+  Maryland & Democrat & Democrat & Democrat\\
+  \hline
+  Massachusetts & Democrat & Democrat & Democrat\\
+  \hline
+  Michigan & Republican & Republican & Republican\\
+  \hline
+  Minnesota & Democrat & Republican & Republican\\
+  \hline
+  Mississippi & Republican & Democrat & Democrat\\
+  \hline
+  Missouri & Democrat & Republican & Republican\\
+  \hline
+  Montana & Democrat & Republican & Republican\\
+  \hline
+  Nevada & Republican & Democrat & Democrat\\
+  \hline
+  New Hampshire & Democrat & Republican & Republican\\
+  \hline
+  New Jersey & Republican & Democrat & Democrat\\
+  \hline
+  New Mexico & Republican & Democrat & Democrat\\
+  \hline
+  New York & Democrat & Democrat & Republican\\
+  \hline
+  North Carolina & Democrat & Republican & Republican\\
+  \hline
+  North Dakota & Republican & Republican & Republican\\
+  \hline
+  Ohio & Republican & Republican & Republican\\
+  \hline
+  Oklahoma & Republican & Republican & Republican\\
+  \hline
+  Oregon & Democrat & Split & Democrat\\
+  \hline
+  Pennsylvania & Republican & Republican & Republican\\
+  \hline
+  Rhode Island & Non-Major Party & Democrat & Democrat\\
+  \hline
+  South Carolina & Republican & Republican & Republican\\
+  \hline
+  South Dakota & Republican & Republican & Republican\\
+  \hline
+  Tennessee & Republican & Republican & Republican\\
+  \hline
+  Texas & Republican & Republican & Republican\\
+  \hline
+  Utah & Republican & Republican & Republican\\
+  \hline
+  Vermont & Democrat & Democrat & Democrat\\
+  \hline
+  Virginia & Republican & Republican & Democrat\\
+  \hline
+  Washington & Democrat & Democrat & Democrat\\
+  \hline
+  West Virginia & Democrat & Democrat & Democrat\\
+  \hline
+  Wisconsin & Republican & Republican & Republican\\
+  \hline
+  Wyoming & Republican & Republican & Republican\\
+  \hline
+  \end{tabular}
+  \end{table}
+\item
+  Obtain a copy of Gerber, Green, and Larimer's 2008 article ``Social
+  Pressure and Voter Turnout: Evidence from a Large-scale Field
+  Experiment'' published in the \emph{American Political Science Review}
+  (Volume 102, Issue 1, pp.~33-48). Complete the following tasks:
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Read the introduction, pp.~33-34 though ``Social Norms, The Calculus
+    of Voting, and Prior Research.'' What question interests the
+    authors? What type of question is it (normative, descriptive,
+    causal)? Would you say that the question matters? Why?
+  \item
+    Read the section ``Experimental Design,'' pp.~36-38 though
+    ``Results''. Briefly describe the design of the study. When and
+    where was the student conducted? Who was included in or excluded
+    from the study? How did the researchers assign the subjects to the
+    treatment and control groups?
+  \item
+    Examine the four mailers reproduced on pp.~43-46. Using your
+    intuition about voter psychology and behavior, rank these mailers
+    from most effective to least effective. Which mailer do you
+    suspective makes the recipient most likely to vote? Least likely? Do
+    you suspect any of the mailers have a negative effect (i.e.,
+    receiving the mailer makes the recipient less likely to vote than if
+    she had received no mailer at all)?
+  \item
+    Table \ref{tab:socialpressuredata} contains the data set
+    \texttt{social-pressure}. Use these data to re-compute the
+    percentages that the authors present in their Table 2 on p.~38. Fill
+    these in the appropriate colum in Table
+    \ref{tab:socialpressuredata}.
+  \item
+    Estimate the average treatment effect by subtracting the proportion
+    that voted in the control group from the proportion that voted in
+    each treatment group (i.e., groups that received a mailer). Convert
+    these changes in proportions to changes in percentages by
+    multiplying by 100\%.\footnote{We must take care when discussing
+      changes in percentages. A 10\% increase in 50\%, could mean either
+      (a) \(0.5 + 0.1 = 0.6 = 60\%\) or (b)
+      \(0.5 + (0.5 \times 0.1) = 0.5 + 0.05 = 0.55 = 55\%\). To make the
+      change clear, we usually talk about changes in ``percentage
+      points,'' which clearly refers to (a). Thoughout these notes, I
+      always describe changes in percents using percentage point changes
+      (a).} According to these estimates, what treatment is most
+    effective? Least effective? Do any treatments have a negative
+    effect? Does the treatment effects match your guesses about the
+    rankings?
+  \item
+    Comment on the ethics of this study? Would you describe this study
+    as unethical? Why or why not?
+  \end{enumerate}
+
+  \rowcolors{2}{gray!6}{white}
+
+  \begin{table}
+
+  \caption{\label{tab:socialpressuredata}The numbers of experimental subjects in each condition and the number of subjects in each condition that voted in Gerber, Green, and Larimer's (2008) experiment.}
+  \centering
+  \resizebox{\linewidth}{!}{\begin{tabular}[t]{>{}c>{\centering\arraybackslash}p{10em}>{\centering\arraybackslash}p{10em}>{\centering\arraybackslash}p{10em}>{\centering\arraybackslash}p{10em}}
+  \hiderowcolors
+  \toprule
+  Condition & Number of Subjects in Condition & Number of Subjects in Condition that Voted & Percent of Subject in Condition that Voted & Average Treatment Effect (in Percentage Points)\\
+  \midrule
+  \showrowcolors
+  Control & 191243 & 56730 &  & Not Applicable\\
+  Civic Duty & 38218 & 12021 &  & \\
+  Hawthorne & 38204 & 12316 &  & \\
+  Self & 38218 & 13191 &  & \\
+  Neighbors & 38201 & 14438 &  & \\
+  \bottomrule
+  \end{tabular}}
+  \end{table}
+
+  \rowcolors{2}{white}{white}
 \end{enumerate}
-
-\begin{table}
-
-\caption{\label{tab:govtcontroldata}The partisan control of each branch of the 49 (excluding Nebraska) state governments in 2011.}
-\centering
-\begin{tabular}[t]{c|c|c|c}
-\hline
-state & governor & house & senate\\
-\hline
-Alabama & Republican & Republican & Republican\\
-\hline
-Alaska & Republican & Republican & Split\\
-\hline
-Arizona & Republican & Republican & Republican\\
-\hline
-Arkansas & Democrat & Democrat & Democrat\\
-\hline
-California & Democrat & Democrat & Democrat\\
-\hline
-Colorado & Democrat & Republican & Democrat\\
-\hline
-Connecticut & Democrat & Democrat & Democrat\\
-\hline
-Delaware & Democrat & Democrat & Democrat\\
-\hline
-Florida & Republican & Republican & Republican\\
-\hline
-Georgia & Republican & Republican & Republican\\
-\hline
-Hawaii & Democrat & Democrat & Democrat\\
-\hline
-Idaho & Republican & Republican & Republican\\
-\hline
-Illinois & Democrat & Democrat & Democrat\\
-\hline
-Indiana & Republican & Republican & Republican\\
-\hline
-Iowa & Republican & Republican & Democrat\\
-\hline
-Kansas & Republican & Republican & Republican\\
-\hline
-Kentucky & Democrat & Democrat & Republican\\
-\hline
-Louisiana & Republican & Republican & Democrat\\
-\hline
-Maine & Republican & Republican & Republican\\
-\hline
-Maryland & Democrat & Democrat & Democrat\\
-\hline
-Massachusetts & Democrat & Democrat & Democrat\\
-\hline
-Michigan & Republican & Republican & Republican\\
-\hline
-Minnesota & Democrat & Republican & Republican\\
-\hline
-Mississippi & Republican & Democrat & Democrat\\
-\hline
-Missouri & Democrat & Republican & Republican\\
-\hline
-Montana & Democrat & Republican & Republican\\
-\hline
-Nevada & Republican & Democrat & Democrat\\
-\hline
-New Hampshire & Democrat & Republican & Republican\\
-\hline
-New Jersey & Republican & Democrat & Democrat\\
-\hline
-New Mexico & Republican & Democrat & Democrat\\
-\hline
-New York & Democrat & Democrat & Republican\\
-\hline
-North Carolina & Democrat & Republican & Republican\\
-\hline
-North Dakota & Republican & Republican & Republican\\
-\hline
-Ohio & Republican & Republican & Republican\\
-\hline
-Oklahoma & Republican & Republican & Republican\\
-\hline
-Oregon & Democrat & Split & Democrat\\
-\hline
-Pennsylvania & Republican & Republican & Republican\\
-\hline
-Rhode Island & Non-Major Party & Democrat & Democrat\\
-\hline
-South Carolina & Republican & Republican & Republican\\
-\hline
-South Dakota & Republican & Republican & Republican\\
-\hline
-Tennessee & Republican & Republican & Republican\\
-\hline
-Texas & Republican & Republican & Republican\\
-\hline
-Utah & Republican & Republican & Republican\\
-\hline
-Vermont & Democrat & Democrat & Democrat\\
-\hline
-Virginia & Republican & Republican & Democrat\\
-\hline
-Washington & Democrat & Democrat & Democrat\\
-\hline
-West Virginia & Democrat & Democrat & Democrat\\
-\hline
-Wisconsin & Republican & Republican & Republican\\
-\hline
-Wyoming & Republican & Republican & Republican\\
-\hline
-\end{tabular}
-\end{table}
 
 \bibliography{book.bib,packages.bib}
 

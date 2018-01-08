@@ -1,6 +1,5 @@
 
 # proportions
-rmarkdown::render("p2-ch07-proportions.Rmd", 
-                  output_format = "pdf_document")
-file.rename("p2-ch07-proportions.pdf", "single-chapters/p2-ch07-proportions.pdf")
-
+rmarkdown::render("single-chapters/p2-ch07-proportions.Rmd", 
+                  output_format = "html_document", 
+                  knit_root_dir = here::here())

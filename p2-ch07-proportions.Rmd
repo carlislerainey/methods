@@ -14,6 +14,7 @@ When we deal with lists that contain not-numbers, we cannot use the average beca
 
 Instead, we use proportions. We choose a particular category and compute the proportion of a list that fall into that category. Note that this "particular category"" might contain several values, such as freshman or sophomore (underclassmen) or A, B, or C (passing grades). For example, we say a certain proportion of the class are freshman. Or we say that a certain proportion of a class received an A, B, or C.
 
+
 ## Calculating Proportions
 
 To compute a proportion, simply count the number of entries in the list that fall in the particular category and divide that by the total number of entries.
@@ -88,19 +89,57 @@ We can say three things about proportions:
 
 ## Review Exercises
 
+
+
 1. Table \@ref(tab:govtcontroldata) shows the partisan control of each branch of the 49 U.S. states (excluding Nebraska) in 2011. Compute the proportion of states with a Republican governor. Repeat for house and senate. Is the proportion of Democratic governors, houses, and senates necessarily $1 - \text{proportion Republican}$? Why or why not? Which party has most control in the U.S. states? Can you think of any ways that control of state governments affect national politics? 
 
-```{r govtcontroldata, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE}
-# load packages
-library(tidyverse)
-library(magrittr)
+    ```{r govtcontroldata, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE}
+    # load packages
+    library(tidyverse)
+    library(magrittr)
+    
+    # load and clean data for example
+    df <- read_rds("data/state-governments.rds") %>%
+      filter(year == 2011) %>%
+      select(-year) %>%
+      arrange(state)
+    
+    # print md table
+    knitr::kable(df, align = "c", caption = "The partisan control of each branch of the 49 (excluding Nebraska) state governments in 2011.")
+    ```
 
-# load and clean data for example
-df <- read_rds("data/state-governments.rds") %>%
-  filter(year == 2011) %>%
-  select(-year) %>%
-  arrange(state)
+1. Obtain a copy of Gerber, Green, and Larimer's 2008 article "Social Pressure and Voter Turnout: Evidence from a Large-scale Field Experiment" published in the *American Political Science Review* (Volume 102, Issue 1, pp. 33-48). Complete the following tasks:
+    a. Read the introduction, pp. 33-34 though "Social Norms, The Calculus of Voting, and Prior Research." What question interests the authors? What type of question is it (normative, descriptive, causal)? Would you say that the question matters? Why?
+    b. Read the section "Experimental Design," pp. 36-38 though "Results". Briefly describe the design of the study. When and where was the student conducted? Who was included in or excluded from the study? How did the researchers assign the subjects to the treatment and control groups?
+    c. Examine the four mailers reproduced on pp. 43-46. Using your intuition about voter psychology and behavior, rank these mailers from most effective to least effective. Which mailer do you suspective makes the recipient most likely to vote? Least likely? Do you suspect any of the mailers have a negative effect (i.e., receiving the mailer makes the recipient less likely to vote than if she had received no mailer at all)?
+    d. Table \@ref(tab:socialpressuredata) contains the data set `social-pressure`. Use these data to re-compute the percentages that the authors present in their Table 2 on p. 38. Fill these in the appropriate colum in Table \@ref(tab:socialpressuredata). 
+    e. Estimate the average treatment effect by subtracting the proportion that voted in the control group from the proportion that voted in each treatment group (i.e., groups that received a mailer). Convert these changes in proportions to changes in percentages by multiplying by 100%.^[We must take care when discussing changes in percentages. A 10% increase in 50%, could mean either (a) $0.5 + 0.1 = 0.6 = 60\%$ or (b) $0.5 + (0.5 \times 0.1) = 0.5 + 0.05 = 0.55 = 55\%$. To make the change clear, we usually talk about changes in "percentage points," which clearly refers to (a). Thoughout these notes, I always describe changes in percents using percentage point changes (a).] According to these estimates, what treatment is most effective? Least effective? Do any treatments have a negative effect? Does the treatment effects match your guesses about the rankings?
+    f. Comment on the ethics of this study? Would you describe this study as unethical? Why or why not?
 
-# print md table
-knitr::kable(df, align = "c", caption = "The partisan control of each branch of the 49 (excluding Nebraska) state governments in 2011.")
-```
+    ```{r socialpressuredata, echo=FALSE, message=FALSE, warning=FALSE, paged.print=TRUE}
+    # load packages
+    library(tidyverse)
+    library(magrittr)
+    library(kableExtra)
+    
+    # load and clean data for example
+    df <- read_rds("data/social-pressure.rds") %>%
+      rename(`Condition` = condition,
+             `Number of Subjects in Condition` = number_in_condition,
+             `Number of Subjects in Condition that Voted` = number_that_voted) %>%
+      mutate(`Percent of Subject in Condition that Voted` = "", 
+             `Average Treatment Effect (in Percentage Points)` = ifelse(Condition == "Control", 
+                                                                        "Not Applicable", ""))
+    
+    # print md table
+    #knitr::kable(df, align = "c", caption = "The numbers of experimental subjects in each condition and the number of subjects in each condition that voted in Gerber, Green, and Larimer's (2008) experiment.")
+    
+    kable(df, booktabs = TRUE, align = "c", 
+          caption = "The numbers of experimental subjects in each condition and the number of subjects in each condition that voted in Gerber, Green, and Larimer's (2008) experiment.") %>% 
+      kable_styling(full_width = FALSE, latex_options = c("striped", "scale_down")) %>%
+      column_spec(1) %>% 
+      column_spec(2, width = "10em") %>% 
+      column_spec(3, width = "10em") %>% 
+      column_spec(4, width = "10em") %>% 
+      column_spec(5, width = "10em")
+    ```
