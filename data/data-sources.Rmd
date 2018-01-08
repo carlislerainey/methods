@@ -66,8 +66,12 @@ glimpse(progresa_df)
 ----
 
 - `social-pressure`
+    - citation: Gerber, Alan S., Donald P. Green, and Christopher W. Larimer. 2008. "Social pressure and voter turnout: Evidence from a large-scale field experiment." *American Political Science Review* 102(1): 33-48.
     - raw data: `raw-data/GerberGreenLarimer_APSR_2008_social_pressure.csv`.
+    - accessed: 2017-01-05.
     - link: https://isps.yale.edu/research/data/d001.
+    - codebook: `codebooks/social-pressure-codebook.html` and `codebooks/social-pressure-codebook.pdf`.
+    - example: `examples/example-social-pressure.R` and `examples/example-social-pressure.html`. 
     
 ----    
 
