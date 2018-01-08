@@ -97,6 +97,7 @@ We can say three things about proportions:
     # load packages
     library(tidyverse)
     library(magrittr)
+    library(kableExtra)
     
     # load and clean data for example
     df <- read_rds("data/state-governments.rds") %>%
@@ -105,7 +106,8 @@ We can say three things about proportions:
       arrange(state)
     
     # print md table
-    knitr::kable(df, align = "c", caption = "The partisan control of each branch of the 49 (excluding Nebraska) state governments in 2011.")
+    knitr::kable(df, align = "c", caption = "The partisan control of each branch of the 49 (excluding Nebraska) state governments in 2011.") %>%
+            kable_styling(full_width = FALSE, latex_options = c("striped"), font_size = 9)
     ```
 
 1. Obtain a copy of Gerber, Green, and Larimer's 2008 article "Social Pressure and Voter Turnout: Evidence from a Large-scale Field Experiment" published in the *American Political Science Review* (Volume 102, Issue 1, pp. 33-48). Complete the following tasks:
