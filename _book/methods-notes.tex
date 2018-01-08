@@ -85,7 +85,7 @@ Science}
   \postauthor{\par}
   \predate{\centering\large\emph}
   \postdate{\par}
-  \date{2018-01-02}
+  \date{2018-01-08}
 
 \usepackage{booktabs}
 
@@ -720,7 +720,7 @@ Justice - does the model advance normative goals?
   What is a critical test and why is it important?
 \end{enumerate}
 
-\chapter{Fractions}\label{fractions}
+\chapter{Proportions}\label{proportions}
 
 We can imagine lots of lists that are not numbers. This lists contain
 qualitative variables. We might have a lists that contains the class of
@@ -736,20 +736,20 @@ type, and so on.
 When we deal with lists that contain not-numbers, we cannot use the
 average because we cannot sum the not-numbers.
 
-Instead, we use fractions. We choose a particular category and compute
-the fraction of a list that fall into that category. Note that this
+Instead, we use proportions. We choose a particular category and compute
+the proportion of a list that fall into that category. Note that this
 ``particular category''" might contain several values, such as freshman
 or sophomore (underclassmen) or A, B, or C (passing grades). For
-example, we say a certain fraction of the class are freshman. Or we say
-that a certain fraction of a class received an A, B, or C.
+example, we say a certain proportion of the class are freshman. Or we
+say that a certain proportion of a class received an A, B, or C.
 
-\section{Calculating Fractions}\label{calculating-fractions}
+\section{Calculating Proportions}\label{calculating-proportions}
 
-To compute a fraction, simply count the number of entries in the list
+To compute a proportion, simply count the number of entries in the list
 that fall in the particular category and divide that by the total number
 of entries.
 
-\[\text{fraction in the category} = \dfrac{\text{number of entries that fall into the category}}{\text{total number of entries}}\]
+\[\text{proportion in the category} = \dfrac{\text{number of entries that fall into the category}}{\text{total number of entries}}\]
 
 For example, take the
 
@@ -776,9 +776,9 @@ the number of sophomores by total number of students. We have
 \end{quote}
 
 \begin{quote}
-If we want, we can leave this fraction as is, reduce it to a simpler
+If we want, we can leave this proportion as is, reduce it to a simpler
 form, or convert it to a percent. It's usually easiest to convert the
-final fraction to a percent. in this cases, we have 20\%.
+final proportion to a percent. in this cases, we have 20\%.
 \end{quote}
 
 \textbf{Exercises}:
@@ -798,41 +798,41 @@ final fraction to a percent. in this cases, we have 20\%.
 \end{enumerate}
 
 \section{The Mathematics of
-Fractions}\label{the-mathematics-of-fractions}
+Proportions}\label{the-mathematics-of-proportions}
 
-The approach above to compute a fraction works perfectly. However, it
+The approach above to compute a proportion works perfectly. However, it
 does not clearly connect to the past or future discussion of averages.
 
-If we can connect fractions and averages, then we can apply the same
+If we can connect proportions and averages, then we can apply the same
 theory to two concepts, cutting our theory and formulas by half.
 
-To connect fractions and averages, we simply convert the list of
+To connect proportions and averages, we simply convert the list of
 not-numbers into a list of numbers. To create the new list of numbers,
 simply assign the number 1 to the entries that fall into the particular
 category. Assign zero to the other entries. This creates a list of
 numbers that contains only 0s and 1s. I call this a 0-1 list. The
-fraction is simply the average of this 0-1 list.
+proportion is simply the average of this 0-1 list.
 
-\textbf{Note: We can think of a fraction as an average of a 0-1 list.}
+\textbf{Note: We can think of a proportion as an average of a 0-1 list.}
 
-Notice that a fraction is a special type of average: it is an average of
-a 0-1 list that you create by replacing the entries that fall into the
-categories of interest with 1s and replacing the other entries with
+Notice that a proportion is a special type of average: it is an average
+of a 0-1 list that you create by replacing the entries that fall into
+the categories of interest with 1s and replacing the other entries with
 zero.
 
 \textbf{Exercise}: Suppose I'm evaluating the admissions process so I
 put together a list containing the gender of the admitted graduate
 students. This list is M, M, F, F, M, M, M, M, F, M, and M.
 
-Try two ways to calculating the fraction of women admitted. 1. The
+Try two ways to calculating the proportion of women admitted. 1. The
 inital way I described: count the number of women in the list and divide
 that by the total number of entries. 2. The more mathematical way I
 described: write down the implied 0-1 list (replace Woman with 1 and
 everything else with 0) and then average the list. Are these two
 approaches different or the same? Elaborate?
 
-If we understand fractions as a special type of average, then anything
-we say about averages applies to fractions too!
+If we understand proportions as a special type of average, then anything
+we say about averages applies to proportions too!
 
 \section{SD of a 0-1 List}\label{sd-of-a-0-1-list}
 
@@ -850,33 +850,33 @@ If the average of a 0-1 list is 0.25, then the SD is exactly
 then the SD is exactly \(\sqrt{0.5 \times 0.5} = 0.5\).
 
 Because of this, we do not often discuss the variation when working with
-lists of qualitative values--the fraction contains all the information
+lists of qualitative values--the proportion contains all the information
 we need.
 
 However, this shortcut will help us later.
 
-\section{Properties of Fractions}\label{properties-of-fractions}
+\section{Properties of Proportions}\label{properties-of-proportions}
 
-We can say three things about fractions:
+We can say three things about proportions:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
   They are at least 0 and at most 1. If none of the entries fall into
-  the category, then the top (numerator) of the fraction equals 0, and
-  therefore the whole fraction equals 0. If all of the entries fall into
-  the category, then the top of the fraction (numerator) equals the
-  bottom of the fraction (denominator), and thefore the whole fraction
-  equals 1.
+  the category, then the top (numerator) of the proportion equals 0, and
+  therefore the whole proportion equals 0. If all of the entries fall
+  into the category, then the top of the proportion (numerator) equals
+  the bottom of the proportion (denominator), and thefore the whole
+  proportion equals 1.
 \item
-  The fraction that do not fall into a category is 1 minus the fraction
-  that fall into a category.
+  The proportion that do not fall into a category is 1 minus the
+  proportion that fall into a category.
 \item
   It is easier to talk about percents. After we finish all our
-  calculations, we usually convert fractions to percents by multiplying
-  the fraction by 100\%. It usually round this percent to the nearest
-  whole percent.
+  calculations, we usually convert proportions to percents by
+  multiplying the proportion by 100\%. It usually round this percent to
+  the nearest whole percent.
 \end{enumerate}
 
 \section{Review Exercises}\label{review-exercises-1}
@@ -887,11 +887,11 @@ We can say three things about fractions:
 \item
   Table \ref{tab:govtcontroldata} shows the partisan control of each
   branch of the 49 U.S. states (excluding Nebraska) in 2011. Compute the
-  fraction of states with a Republican governor. Repeat for house and
-  senate. Is the fraction of Democratic governors, houses, and senates
-  necessarily \(1 - \text{fraction Republican}\)? Why or why not? Which
-  party has most control in the U.S. states? Can you think of any ways
-  that control of state governments affect national politics?
+  proportion of states with a Republican governor. Repeat for house and
+  senate. Is the proportion of Democratic governors, houses, and senates
+  necessarily \(1 - \text{proportion Republican}\)? Why or why not?
+  Which party has most control in the U.S. states? Can you think of any
+  ways that control of state governments affect national politics?
 \end{enumerate}
 
 \begin{table}
